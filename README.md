@@ -17,6 +17,10 @@
 
     -Localize the sound source in an image
 ## Audio-Visual Separation
+[Co-Separating Sounds of Visual Objects](https://arxiv.org/pdf/1904.07750.pdf) - Gao, R. & Grauman, K. (ArXiv 2019) [[project page]](http://vision.cs.utexas.edu/projects/coseparation/)
+
+[The sound of Motions](https://arxiv.org/pdf/1904.05979.pdf) - Zhao, H., Gan, C., Ma, W. & Torralba, A. (ArXiV 2019)
+
 [Learning to Separate Object Sounds by Watching Unlabeled Video](http://vision.cs.utexas.edu/projects/separating_object_sounds/sound-sep-eccv2018.pdf) - Gao, R., Feris, R., & Grauman, K. (ECCV 2018 (Oral)) [[project page]](http://vision.cs.utexas.edu/projects/separating_object_sounds/) [[code]](https://github.com/rhgao/Deep-MIML-Network) [[dataset]](http://vision.cs.utexas.edu/projects/separating_object_sounds/#data)
 
 [The Sound of Pixels](https://arxiv.org/pdf/1804.03160.pdf) - Zhao, H., Gan, C., Rouditchenko, A., Vondrick, C., McDermott, J., & Torralba, A. (ECCV 2018) [[project page]](http://sound-of-pixels.csail.mit.edu/)[[code]](https://github.com/hangzhaomit/Sound-of-Pixels) [[dataset]](https://github.com/roudimit/MUSIC_dataset)
@@ -32,6 +36,10 @@
 [See, hear, and read: Deep aligned representations](https://people.csail.mit.edu/yusuf/publications/2017/Aytar17/aytar17.pdf) - Aytar, Y., Vondrick, C., & Torralba, A. (arxiv 2017) [[project page]](https://people.csail.mit.edu/yusuf/see-hear-read/)
 ## Cross-Modal Retrieval
 [Learning Cross-modal Embeddings for Cooking Recipes and Food Images](http://pic2recipe.csail.mit.edu/im2recipe.pdf) -  Salvador, A., Hynes, N., Aytar, Y., Marin, J., Ofli, F., Weber, I., & Torralba, A. (CVPR 2017)
+
+    - Retrieval using video to audio and audio to video
+
+[Cross-Modal Embeddings for Video and Audio Retrieval](https://arxiv.org/pdf/1801.02200.pdf) -Surís, D., Duarte, A., Salvador, A., Torres, J., & Giró-i-Nieto, X. (ECCVW, 2018)
 
 ## Audio-Visual Biometrics
 
