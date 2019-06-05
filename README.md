@@ -17,9 +17,9 @@
 
     -Localize the sound source in an image
 ## Audio-Visual Separation
-[Co-Separating Sounds of Visual Objects](https://arxiv.org/pdf/1904.07750.pdf) - Gao, R. & Grauman, K. (ArXiv 2019) [[project page]](http://vision.cs.utexas.edu/projects/coseparation/)
+[Co-Separating Sounds of Visual Objects](https://arxiv.org/pdf/1904.07750.pdf) - Gao, R. & Grauman, K. (arXiv 2019) [[project page]](http://vision.cs.utexas.edu/projects/coseparation/)
 
-[The sound of Motions](https://arxiv.org/pdf/1904.05979.pdf) - Zhao, H., Gan, C., Ma, W. & Torralba, A. (ArXiV 2019)
+[The sound of Motions](https://arxiv.org/pdf/1904.05979.pdf) - Zhao, H., Gan, C., Ma, W. & Torralba, A. (arXiv 2019)
 
 [Learning to Separate Object Sounds by Watching Unlabeled Video](http://vision.cs.utexas.edu/projects/separating_object_sounds/sound-sep-eccv2018.pdf) - Gao, R., Feris, R., & Grauman, K. (ECCV 2018 (Oral)) [[project page]](http://vision.cs.utexas.edu/projects/separating_object_sounds/) [[code]](https://github.com/rhgao/Deep-MIML-Network) [[dataset]](http://vision.cs.utexas.edu/projects/separating_object_sounds/#data)
 
