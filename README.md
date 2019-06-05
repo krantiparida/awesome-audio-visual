@@ -25,6 +25,8 @@
 
 [The Sound of Pixels](https://arxiv.org/pdf/1804.03160.pdf) - Zhao, H., Gan, C., Rouditchenko, A., Vondrick, C., McDermott, J., & Torralba, A. (ECCV 2018) [[project page]](http://sound-of-pixels.csail.mit.edu/)[[code]](https://github.com/hangzhaomit/Sound-of-Pixels) [[dataset]](https://github.com/roudimit/MUSIC_dataset)
 ## Audio-Visual Representation
+[Deep Multimodal Clustering for Unsupervised Audiovisual Learning](https://arxiv.org/pdf/1807.03094.pdf) - (Hu, D., Nie, F., & Li, X. (CVPR 2019))
+
 [Audio-Visual Scene Analysis with Self-Supervised Multisensory Features](https://arxiv.org/pdf/1804.03641.pdf) - Owens, A., & Efros, A. A. (ECCV 2018 (Oral)) [[project page]](http://andrewowens.com/multisensory/) [[code]](https://github.com/andrewowens/multisensory)
 
 [Look, listen and learn](https://arxiv.org/pdf/1705.08168.pdf) - Arandjelovic, R., & Zisserman, A. (ICCV 2017) [[Keras-code]](https://github.com/Kajiyu/LLLNet)
@@ -34,6 +36,7 @@
 [Soundnet: Learning sound representations from unlabeled video](http://www.cs.columbia.edu/~vondrick/soundnet.pdf) -  Aytar, Y., Vondrick, C., & Torralba, A. (NIPS 2016) [[project page]](http://projects.csail.mit.edu/soundnet/) [[code]](https://github.com/cvondrick/soundnet)
 
 [See, hear, and read: Deep aligned representations](https://people.csail.mit.edu/yusuf/publications/2017/Aytar17/aytar17.pdf) - Aytar, Y., Vondrick, C., & Torralba, A. (arxiv 2017) [[project page]](https://people.csail.mit.edu/yusuf/see-hear-read/)
+
 ## Cross-Modal Retrieval
 [Learning Cross-modal Embeddings for Cooking Recipes and Food Images](http://pic2recipe.csail.mit.edu/im2recipe.pdf) -  Salvador, A., Hynes, N., Aytar, Y., Marin, J., Ofli, F., Weber, I., & Torralba, A. (CVPR 2017)
 
@@ -41,7 +44,13 @@
 
 [Cross-Modal Embeddings for Video and Audio Retrieval](https://arxiv.org/pdf/1801.02200.pdf) -Surís, D., Duarte, A., Salvador, A., Torres, J., & Giró-i-Nieto, X. (ECCVW, 2018)
 
-## Audio-Visual Biometrics
+## Audio-Visual Faces/Speech
+
+[Hierarchical Cross-Modal Talking Face Generation with Dynamic Pixel-Wise Loss](https://www.cs.rochester.edu/u/lchen63/cvpr2019.pdf) - (Chen, L., Maddox, R. K., Duan, Z., & Xu, C. (CVPR 2019))[[project page]](https://github.com/lelechen63/ATVGnet)
+
+[Speech2Face: Learning the Face Behind a Voice](https://arxiv.org/pdf/1905.09773.pdf) - (Oh, T. H., Dekel, T., Kim, C., Mosseri, I., Freeman, W. T., Rubinstein, M., & Matusik, W. (CVPR 2019))[[project page]](https://speech2face.github.io/)
+
+[X2Face: A network for controlling face generation using images, audio, and pose codes](http://openaccess.thecvf.com/content_ECCV_2018/papers/Olivia_Wiles_X2Face_A_network_ECCV_2018_paper.pdf) - (Wiles, O., Sophia Koepke, A., & Zisserman, A. (ECCV 2018))[[project page]](http://www.robots.ox.ac.uk/~vgg/research/unsup_learn_watch_faces/x2face.html)[[code]](https://github.com/oawiles/X2Face)
 
 [Learnable PINs: Cross-Modal Embeddings for Person Identity](https://arxiv.org/pdf/1805.00833.pdf) - (Nagrani, A., Albanie, S., & Zisserman, A. (ECCV 2018)[[project page]](http://www.robots.ox.ac.uk/~vgg/research/LearnablePins/)
 
@@ -53,10 +62,14 @@
 
 [VoxCeleb: a large-scale speaker identification dataset](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/nagrani17.pdf) - Nagrani, A., Chung, J. S., & Zisserman, A. (Interspeech 2017) [[project page]](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/)[[code]](https://github.com/a-nagrani/VGGVox) [[dataset]](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
 
+### Cross-modal Generation (Audio-Video / Video-Audio)
+
+[Listen to the Image](https://arxiv.org/pdf/1904.09115.pdf) - (Hu, D., Wang, D., Li, X., Nie, F., & Wang, Q. (CVPR 2019))
+
+[Visual to Sound: Generating Natural Sound for Videos in the Wild](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_Visual_to_Sound_CVPR_2018_paper.pdf) - (Zhou, Y., Wang, Z., Fang, C., Bui, T., & Berg, T. L. (CVPR 2018))[[project page]](http://bvision11.cs.unc.edu/bigpen/yipin/visual2sound_webpage/visual2sound.html)
 
 
 ### Uncategorozed ECCV 2018 Papers
-[X2Face: A network for controlling face generation using images, audio, and pose codes](http://openaccess.thecvf.com/content_ECCV_2018/papers/Olivia_Wiles_X2Face_A_network_ECCV_2018_paper.pdf)
 
 [ISNN: Impact Sound Neural Network for Audio-Visual Object Classification](http://openaccess.thecvf.com/content_ECCV_2018/papers/Auston_Sterling_ISNN_-_Impact_ECCV_2018_paper.pdf)
 
@@ -65,7 +78,7 @@
 ### Uncategorized CVPR 2018 papers
 [Audio to Body Dynamics](http://openaccess.thecvf.com/content_cvpr_2018/papers/Shlizerman_Audio_to_Body_CVPR_2018_paper.pdf)
 
-[Visual to Sound: Generating Natural Sound for Videos in the Wild](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_Visual_to_Sound_CVPR_2018_paper.pdf)
+
 
 ### Uncategorized CVPR 2018 Workshop (Sight and Sound) papers
 [Image generation associated with music data](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Qiu_Image_Generation_Associated_CVPR_2018_paper.pdf)
