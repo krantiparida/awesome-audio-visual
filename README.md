@@ -51,6 +51,9 @@
 
 [Speech2Face: Learning the Face Behind a Voice](https://arxiv.org/pdf/1905.09773.pdf) - (Oh, T. H., Dekel, T., Kim, C., Mosseri, I., Freeman, W. T., Rubinstein, M., & Matusik, W. (CVPR 2019))[[project page]](https://speech2face.github.io/)
 
+[Disjoint mapping network for cross-modal matching of voices and faces](https://openreview.net/pdf?id=B1exrnCcF7) - (Wen, Y., Ismail, M. A., Liu, W., Raj, B., & Singh, R. (ICLR 2019))[[project page]](https://github.com/ydwen/DIMNet)
+
+
 [X2Face: A network for controlling face generation using images, audio, and pose codes](http://openaccess.thecvf.com/content_ECCV_2018/papers/Olivia_Wiles_X2Face_A_network_ECCV_2018_paper.pdf) - (Wiles, O., Sophia Koepke, A., & Zisserman, A. (ECCV 2018))[[project page]](http://www.robots.ox.ac.uk/~vgg/research/unsup_learn_watch_faces/x2face.html)[[code]](https://github.com/oawiles/X2Face)
 
 [Learnable PINs: Cross-Modal Embeddings for Person Identity](https://arxiv.org/pdf/1805.00833.pdf) - (Nagrani, A., Albanie, S., & Zisserman, A. (ECCV 2018)[[project page]](http://www.robots.ox.ac.uk/~vgg/research/LearnablePins/)
