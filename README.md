@@ -45,6 +45,7 @@
 [Cross-Modal Embeddings for Video and Audio Retrieval](https://arxiv.org/pdf/1801.02200.pdf) -Surís, D., Duarte, A., Salvador, A., Torres, J., & Giró-i-Nieto, X. (ECCVW, 2018)
 
 ## Audio-Visual Faces/Speech
+[Learning Individual Styles of Conversational Gesture](https://arxiv.org/pdf/1906.04160.pdf) - (Ginosar, S., Bar, A., Kohavi, G., Chan, C., Owens, A., & Malik, J. (CVPR 2019)) [[project page]](http://people.eecs.berkeley.edu/~shiry/projects/speech2gesture/) [[dataset]](https://drive.google.com/drive/folders/1qvvnfGwas8DUBrwD4DoBnvj8anjSLldZ)
 
 [Hierarchical Cross-Modal Talking Face Generation with Dynamic Pixel-Wise Loss](https://www.cs.rochester.edu/u/lchen63/cvpr2019.pdf) - (Chen, L., Maddox, R. K., Duan, Z., & Xu, C. (CVPR 2019))[[project page]](https://github.com/lelechen63/ATVGnet)
 
