@@ -81,9 +81,9 @@
 
 ### Uncategorozed Papers
 
-[ISNN: Impact Sound Neural Network for Audio-Visual Object Classification](http://openaccess.thecvf.com/content_ECCV_2018/papers/Auston_Sterling_ISNN_-_Impact_ECCV_2018_paper.pdf)
+[ISNN: Impact Sound Neural Network for Audio-Visual Object Classification](http://openaccess.thecvf.com/content_ECCV_2018/papers/Auston_Sterling_ISNN_-_Impact_ECCV_2018_paper.pdf) - Sterling, A., Wilson, J., Lowe, S., & Lin, M. C. (ECCV 2018) [[project page]](http://gamma.cs.unc.edu/ISNN/) [[dataset1]](https://drive.google.com/drive/folders/1lVYYMTOLItozaU-vAa0OoXQr_4VfmqVg?usp=sharing)[[dataset2]](https://drive.google.com/drive/folders/1p0HAlrsoydYFuWginPuhiDQjncAvSQon?usp=sharing) [[model]](http://gamma.cs.unc.edu/ISNN/ModelNet_URLs_WAV_PLY.pdf)
 
-[Audio to Body Dynamics](http://openaccess.thecvf.com/content_cvpr_2018/papers/Shlizerman_Audio_to_Body_CVPR_2018_paper.pdf)
+[Audio to Body Dynamics](http://openaccess.thecvf.com/content_cvpr_2018/papers/Shlizerman_Audio_to_Body_CVPR_2018_paper.pdf) - Shlizerman, E., Dery, L., Schoen, H., & Kemelmacher-Shlizerman, I. (CVPR 2018) [[project page]](https://arviolin.github.io/AudioBodyDynamics/)[[code]](https://github.com/facebookresearch/Audio2BodyDynamics)
 
 [A Multimodal Approach to Mapping Soundscapes](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Salem_A_Multimodal_Approach_CVPR_2018_paper.pdf) - Salem, T., Zhai, M., Workman, S., & Jacobs, N. (CVPRW 2018) [[project page]](http://cs.uky.edu/~salem/audio-mapping/)
 
