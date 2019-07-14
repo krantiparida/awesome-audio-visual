@@ -69,7 +69,7 @@
 
 [Visual to Sound: Generating Natural Sound for Videos in the Wild](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_Visual_to_Sound_CVPR_2018_paper.pdf) - (Zhou, Y., Wang, Z., Fang, C., Bui, T., & Berg, T. L. (CVPR 2018))[[project page]](http://bvision11.cs.unc.edu/bigpen/yipin/visual2sound_webpage/visual2sound.html)
 
-[Image generation associated with music data](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Qiu_Image_Generation_Associated_CVPR_2018_paper.pdf)
+[Image generation associated with music data](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Qiu_Image_Generation_Associated_CVPR_2018_paper.pdf) - Qiu, Y., & Kataoka, H. (CVPRW 2018)
 
 ### Multi-modal Generation
 [Multimodal generative models for scalable weakly-supervised learning](https://papers.nips.cc/paper/7801-multimodal-generative-models-for-scalable-weakly-supervised-learning.pdf) - Wu, M., & Goodman, N. (NeurIPS 2018)
@@ -85,8 +85,11 @@
 
 [Audio to Body Dynamics](http://openaccess.thecvf.com/content_cvpr_2018/papers/Shlizerman_Audio_to_Body_CVPR_2018_paper.pdf)
 
-[A Multimodal Approach to Mapping Soundscapes](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Salem_A_Multimodal_Approach_CVPR_2018_paper.pdf)
+[A Multimodal Approach to Mapping Soundscapes](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Salem_A_Multimodal_Approach_CVPR_2018_paper.pdf) - Salem, T., Zhai, M., Workman, S., & Jacobs, N. (CVPRW 2018) [[project page]](http://cs.uky.edu/~salem/audio-mapping/)
 
-[Multimodal Attention for Fusion of Audio and Spatiotemporal Features for Video Description](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Hori_Multimodal_Attention_for_CVPR_2018_paper.pdf)
+[Multimodal Attention for Fusion of Audio and Spatiotemporal Features for Video Description](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Hori_Multimodal_Attention_for_CVPR_2018_paper.pdf) - Hori, C., Hori, T., Wichern, G., Wang, J., Lee, T. Y., Cherian, A., & Marks, T. K. (CVPRW 2018)
 
 [Shape and material from sound](https://papers.nips.cc/paper/6727-shape-and-material-from-sound.pdf) - Zhang, Z., Li, Q., Huang, Z., Wu, J., Tenenbaum, J., & Freeman, B. (NeurIPS 2017)
+
+
+testing22222222222222222
