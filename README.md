@@ -3,19 +3,17 @@
  - [Audio-Visual Separation](#Audio-Visual-Separation)
  - [Audio-Visual Representaion](#Audio-Visual-Representation)
  - [Cross-Modal Retrieval](#Cross-Modal-Retrieval)
- - [Audio-Visual Biometrics](#Audio-Visual-Biometrics)
+ - [Audio-Visual Faces/Speech](#Audio-Visual-Faces/Speech)
+ - [Cross-modal Generation (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video-/-Video-Audio))
 ## Audio-Visual Localization
 [Weakly Supervised Representation Learning for Unsynchronized Audio-Visual Events](https://arxiv.org/pdf/1804.07345.pdf) - Parekh, S., Essid, S., Ozerov, A., Duong, N. Q., Pérez, P., & Richard, G. (arxiv, 2018) [CPVRW2018](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Parekh_Weakly_Supervised_Representation_CVPR_2018_paper.pdf)
 
-    - Temporal and spatial localization of sound source both in audio and video
-
 [Learning to Localize Sound Source in Visual Scenes](http://openaccess.thecvf.com/content_cvpr_2018/papers/Senocak_Learning_to_Localize_CVPR_2018_paper.pdf) - Senocak, A., Oh, T. H., Kim, J., Yang, M. H., & Kweon, I. S. (CVPR 2018)
-
-    - Spatial localization of sound source in an image
 
 [Objects that Sound](https://arxiv.org/pdf/1712.06651.pdf) - Arandjelovic, R., & Zisserman, A. (ECCV 2018) 
 
-    -Localize the sound source in an image
+[Audio-Visual Event Localization in Unconstrained Videos](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yapeng_Tian_Audio-Visual_Event_Localization_ECCV_2018_paper.pdf) - Tian, Y., Shi, J., Li, B., Duan, Z., & Xu, C. (ECCV 2018) [[project page]](https://sites.google.com/view/audiovisualresearch) [[code]](https://github.com/YapengTian/AVE-ECCV18)
+
 ## Audio-Visual Separation
 [Co-Separating Sounds of Visual Objects](https://arxiv.org/pdf/1904.07750.pdf) - Gao, R. & Grauman, K. (arXiv 2019) [[project page]](http://vision.cs.utexas.edu/projects/coseparation/)
 
@@ -26,6 +24,8 @@
 [The Sound of Pixels](https://arxiv.org/pdf/1804.03160.pdf) - Zhao, H., Gan, C., Rouditchenko, A., Vondrick, C., McDermott, J., & Torralba, A. (ECCV 2018) [[project page]](http://sound-of-pixels.csail.mit.edu/)[[code]](https://github.com/hangzhaomit/Sound-of-Pixels) [[dataset]](https://github.com/roudimit/MUSIC_dataset)
 ## Audio-Visual Representation
 [Deep Multimodal Clustering for Unsupervised Audiovisual Learning](https://arxiv.org/pdf/1807.03094.pdf) - (Hu, D., Nie, F., & Li, X. (CVPR 2019))
+
+[Cooperative learning of audio and video models from self-supervised synchronization](http://papers.nips.cc/paper/8002-cooperative-learning-of-audio-and-video-models-from-self-supervised-synchronization.pdf) - (Korbar, B., Tran, D., & Torresani, L. (NeurIPS 2108)) [[project page]](http://vlg.cs.dartmouth.edu/projects/avts/)[[trained model 1]](http://vlg.cs.dartmouth.edu/projects/avts/model_mc3_as.pt)[[trained model 2]](http://vlg.cs.dartmouth.edu/projects/avts/model_mc2_as.pt)
 
 [Audio-Visual Scene Analysis with Self-Supervised Multisensory Features](https://arxiv.org/pdf/1804.03641.pdf) - Owens, A., & Efros, A. A. (ECCV 2018 (Oral)) [[project page]](http://andrewowens.com/multisensory/) [[code]](https://github.com/andrewowens/multisensory)
 
@@ -39,8 +39,6 @@
 
 ## Cross-Modal Retrieval
 [Learning Cross-modal Embeddings for Cooking Recipes and Food Images](http://pic2recipe.csail.mit.edu/im2recipe.pdf) -  Salvador, A., Hynes, N., Aytar, Y., Marin, J., Ofli, F., Weber, I., & Torralba, A. (CVPR 2017)
-
-    - Retrieval using video to audio and audio to video
 
 [Cross-Modal Embeddings for Video and Audio Retrieval](https://arxiv.org/pdf/1801.02200.pdf) -Surís, D., Duarte, A., Salvador, A., Torres, J., & Giró-i-Nieto, X. (ECCVW, 2018)
 
@@ -67,29 +65,28 @@
 [VoxCeleb: a large-scale speaker identification dataset](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/nagrani17.pdf) - Nagrani, A., Chung, J. S., & Zisserman, A. (Interspeech 2017) [[project page]](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/)[[code]](https://github.com/a-nagrani/VGGVox) [[dataset]](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
 
 ### Cross-modal Generation (Audio-Video / Video-Audio)
-
 [Listen to the Image](https://arxiv.org/pdf/1904.09115.pdf) - (Hu, D., Wang, D., Li, X., Nie, F., & Wang, Q. (CVPR 2019))
 
 [Visual to Sound: Generating Natural Sound for Videos in the Wild](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_Visual_to_Sound_CVPR_2018_paper.pdf) - (Zhou, Y., Wang, Z., Fang, C., Bui, T., & Berg, T. L. (CVPR 2018))[[project page]](http://bvision11.cs.unc.edu/bigpen/yipin/visual2sound_webpage/visual2sound.html)
 
+[Image generation associated with music data](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Qiu_Image_Generation_Associated_CVPR_2018_paper.pdf)
 
-### Uncategorozed ECCV 2018 Papers
+### Multi-modal Generation
+[Multimodal generative models for scalable weakly-supervised learning](https://papers.nips.cc/paper/7801-multimodal-generative-models-for-scalable-weakly-supervised-learning.pdf) - Wu, M., & Goodman, N. (NeurIPS 2018)
+
+### Multi-modal Architectures
+[What Makes Training Multi-Modal Networks Hard?](https://arxiv.org/pdf/1905.12681.pdf) - Wang, W., Tran, D., & Feiszli, M. (ArXiv 2019) 
+
+[MFAS: Multimodal Fusion Architecture Search](http://openaccess.thecvf.com/content_CVPR_2019/papers/Perez-Rua_MFAS_Multimodal_Fusion_Architecture_Search_CVPR_2019_paper.pdf) - Pérez-Rúa, J. M., Vielzeuf, V., Pateux, S., Baccouche, M., & Jurie, F. (CVPR 2019)
+
+### Uncategorozed Papers
 
 [ISNN: Impact Sound Neural Network for Audio-Visual Object Classification](http://openaccess.thecvf.com/content_ECCV_2018/papers/Auston_Sterling_ISNN_-_Impact_ECCV_2018_paper.pdf)
 
-[Audio-Visual Event Localization in Unconstrained Videos](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yapeng_Tian_Audio-Visual_Event_Localization_ECCV_2018_paper.pdf)
-
-### Uncategorized CVPR 2018 papers
 [Audio to Body Dynamics](http://openaccess.thecvf.com/content_cvpr_2018/papers/Shlizerman_Audio_to_Body_CVPR_2018_paper.pdf)
-
-
-
-### Uncategorized CVPR 2018 Workshop (Sight and Sound) papers
-[Image generation associated with music data](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Qiu_Image_Generation_Associated_CVPR_2018_paper.pdf)
 
 [A Multimodal Approach to Mapping Soundscapes](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Salem_A_Multimodal_Approach_CVPR_2018_paper.pdf)
 
 [Multimodal Attention for Fusion of Audio and Spatiotemporal Features for Video Description](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Hori_Multimodal_Attention_for_CVPR_2018_paper.pdf)
 
-
--- some work on material perception from sound and visual data
+[Shape and material from sound](https://papers.nips.cc/paper/6727-shape-and-material-from-sound.pdf) - Zhang, Z., Li, Q., Huang, Z., Wu, J., Tenenbaum, J., & Freeman, B. (NeurIPS 2017)
