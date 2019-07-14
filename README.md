@@ -90,6 +90,3 @@
 [Multimodal Attention for Fusion of Audio and Spatiotemporal Features for Video Description](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Hori_Multimodal_Attention_for_CVPR_2018_paper.pdf) - Hori, C., Hori, T., Wichern, G., Wang, J., Lee, T. Y., Cherian, A., & Marks, T. K. (CVPRW 2018)
 
 [Shape and material from sound](https://papers.nips.cc/paper/6727-shape-and-material-from-sound.pdf) - Zhang, Z., Li, Q., Huang, Z., Wu, J., Tenenbaum, J., & Freeman, B. (NeurIPS 2017)
-
-
-testing22222222222222222
