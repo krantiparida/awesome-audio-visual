@@ -1,11 +1,11 @@
-# Contents
+## Contents
  - [Audio-Visual Localization](#Audio-Visual-Localization)
  - [Audio-Visual Separation](#Audio-Visual-Separation)
  - [Audio-Visual Representaion](#Audio-Visual-Representation)
  - [Cross-Modal Retrieval](#Cross-Modal-Retrieval)
  - [Audio-Visual Faces/Speech](#Audio-Visual-Faces/Speech)
  - [Cross-modal Generation (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video-/-Video-Audio))
-## Audio-Visual Localization
+### Audio-Visual Localization
 [Dual Attention Matching for Audio-Visual Event Localization](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wu_Dual_Attention_Matching_for_Audio-Visual_Event_Localization_ICCV_2019_paper.pdf) - Wu, Y., Zhu, L., Yan, Y., & Yang, Y. (ICCV 2019)
 
 [Weakly Supervised Representation Learning for Unsynchronized Audio-Visual Events](https://arxiv.org/pdf/1804.07345.pdf) - Parekh, S., Essid, S., Ozerov, A., Duong, N. Q., Pérez, P., & Richard, G. (arxiv, 2018) [CPVRW2018](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Parekh_Weakly_Supervised_Representation_CVPR_2018_paper.pdf)
@@ -16,7 +16,7 @@
 
 [Audio-Visual Event Localization in Unconstrained Videos](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yapeng_Tian_Audio-Visual_Event_Localization_ECCV_2018_paper.pdf) - Tian, Y., Shi, J., Li, B., Duan, Z., & Xu, C. (ECCV 2018) [[project page]](https://sites.google.com/view/audiovisualresearch) [[code]](https://github.com/YapengTian/AVE-ECCV18)
 
-## Audio-Visual Separation
+### Audio-Visual Separation
 [Recursive Visual Sound Separation Using Minus-Plus Net](http://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Recursive_Visual_Sound_Separation_Using_Minus-Plus_Net_ICCV_2019_paper.pdf) - Xudong Xu, Bo Dai, Dahua Lin (ICCV 2019)
 
 [Co-Separating Sounds of Visual Objects](https://arxiv.org/pdf/1904.07750.pdf) - Gao, R. & Grauman, K. (ICCV 2019) [[project page]](http://vision.cs.utexas.edu/projects/coseparation/)
@@ -26,7 +26,7 @@
 [Learning to Separate Object Sounds by Watching Unlabeled Video](http://vision.cs.utexas.edu/projects/separating_object_sounds/sound-sep-eccv2018.pdf) - Gao, R., Feris, R., & Grauman, K. (ECCV 2018 (Oral)) [[project page]](http://vision.cs.utexas.edu/projects/separating_object_sounds/) [[code]](https://github.com/rhgao/Deep-MIML-Network) [[dataset]](http://vision.cs.utexas.edu/projects/separating_object_sounds/#data)
 
 [The Sound of Pixels](https://arxiv.org/pdf/1804.03160.pdf) - Zhao, H., Gan, C., Rouditchenko, A., Vondrick, C., McDermott, J., & Torralba, A. (ECCV 2018) [[project page]](http://sound-of-pixels.csail.mit.edu/)[[code]](https://github.com/hangzhaomit/Sound-of-Pixels) [[dataset]](https://github.com/roudimit/MUSIC_dataset)
-## Audio-Visual Representation
+### Audio-Visual Representation
 [Deep Multimodal Clustering for Unsupervised Audiovisual Learning](https://arxiv.org/pdf/1807.03094.pdf) - (Hu, D., Nie, F., & Li, X. (CVPR 2019))
 
 [Cooperative learning of audio and video models from self-supervised synchronization](http://papers.nips.cc/paper/8002-cooperative-learning-of-audio-and-video-models-from-self-supervised-synchronization.pdf) - (Korbar, B., Tran, D., & Torresani, L. (NeurIPS 2108)) [[project page]](http://vlg.cs.dartmouth.edu/projects/avts/)[[trained model 1]](http://vlg.cs.dartmouth.edu/projects/avts/model_mc3_as.pt)[[trained model 2]](http://vlg.cs.dartmouth.edu/projects/avts/model_mc2_as.pt)
@@ -41,12 +41,12 @@
 
 [See, hear, and read: Deep aligned representations](https://people.csail.mit.edu/yusuf/publications/2017/Aytar17/aytar17.pdf) - Aytar, Y., Vondrick, C., & Torralba, A. (arxiv 2017) [[project page]](https://people.csail.mit.edu/yusuf/see-hear-read/)
 
-## Cross-Modal Retrieval
+### Cross-Modal Retrieval
 [Learning Cross-modal Embeddings for Cooking Recipes and Food Images](http://pic2recipe.csail.mit.edu/im2recipe.pdf) -  Salvador, A., Hynes, N., Aytar, Y., Marin, J., Ofli, F., Weber, I., & Torralba, A. (CVPR 2017)
 
 [Cross-Modal Embeddings for Video and Audio Retrieval](https://arxiv.org/pdf/1801.02200.pdf) -Surís, D., Duarte, A., Salvador, A., Torres, J., & Giró-i-Nieto, X. (ECCVW, 2018)
 
-## Audio-Visual Action Recognition
+### Audio-Visual Action Recognition
 [Listen to Look: Action Recognition by Previewing Audio](https://arxiv.org/pdf/1912.04487.pdf) -  Ruohan Gao, Tae-Hyun Oh, Kristen Grauman, Lorenzo Torresani (ArXiv 2019) [[project page]](http://vision.cs.utexas.edu/projects/listen_to_look/)
 
 [Uncertainty-aware Audiovisual Activity Recognition using Deep Bayesian Variational Inference](http://openaccess.thecvf.com/content_ICCV_2019/papers/Subedar_Uncertainty-Aware_Audiovisual_Activity_Recognition_Using_Deep_Bayesian_Variational_Inference_ICCV_2019_paper.pdf) - Subedar, M., Krishnan, R., Meyer, P. L., Tickoo, O., & Huang, J. (ICCV 2019)
@@ -55,7 +55,7 @@
 
 [How Much Does Audio Matter to Recognize Egocentric Object Interactions?](https://arxiv.org/pdf/1906.00634.pdf) - Cartas, A., Luque, J., Radeva, P., Segura, C., & Dimiccoli, M. (EPIC CVPRW 2019)
 
-## Audio-Visual Faces/Speech
+### Audio-Visual Faces/Speech
 [Reconstructing faces from voices](https://arxiv.org/pdf/1905.10604.pdf) - Yandong Wen, Rita Singh, Bhiksha Raj (NIPS 2019)[[project page]](https://github.com/cmu-mlsp/reconstructing_faces_from_voices)
 
 [Learning Individual Styles of Conversational Gesture](https://arxiv.org/pdf/1906.04160.pdf) - Ginosar, S., Bar, A., Kohavi, G., Chan, C., Owens, A., & Malik, J. (CVPR 2019) [[project page]](http://people.eecs.berkeley.edu/~shiry/projects/speech2gesture/) [[dataset]](https://drive.google.com/drive/folders/1qvvnfGwas8DUBrwD4DoBnvj8anjSLldZ)
