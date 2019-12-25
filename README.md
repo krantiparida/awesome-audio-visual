@@ -104,4 +104,4 @@ License
 To the extent possible under law, [Kranti Kumar Parida](https://krantiparida.github.io/) has waived all copyright and related or neighboring rights to this work.
 
 ## Contributing
-Please feel free to send me [pull requests]() or email (kranti@cse.iitk.ac.in) to add links, correct wrong ones or if you find any broken links.
+Please feel free to send me [pull requests](https://github.com/krantiparida/awesome-audio-visual/pulls) or email (kranti@cse.iitk.ac.in) to add links, correct wrong ones or if you find any broken links.
