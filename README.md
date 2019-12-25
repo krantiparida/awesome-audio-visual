@@ -6,6 +6,8 @@
  - [Audio-Visual Faces/Speech](#Audio-Visual-Faces/Speech)
  - [Cross-modal Generation (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video-/-Video-Audio))
 ## Audio-Visual Localization
+[Dual Attention Matching for Audio-Visual Event Localization](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wu_Dual_Attention_Matching_for_Audio-Visual_Event_Localization_ICCV_2019_paper.pdf) - Wu, Y., Zhu, L., Yan, Y., & Yang, Y. (ICCV 2019)
+
 [Weakly Supervised Representation Learning for Unsynchronized Audio-Visual Events](https://arxiv.org/pdf/1804.07345.pdf) - Parekh, S., Essid, S., Ozerov, A., Duong, N. Q., Pérez, P., & Richard, G. (arxiv, 2018) [CPVRW2018](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Parekh_Weakly_Supervised_Representation_CVPR_2018_paper.pdf)
 
 [Learning to Localize Sound Source in Visual Scenes](http://openaccess.thecvf.com/content_cvpr_2018/papers/Senocak_Learning_to_Localize_CVPR_2018_paper.pdf) - Senocak, A., Oh, T. H., Kim, J., Yang, M. H., & Kweon, I. S. (CVPR 2018)
@@ -15,9 +17,11 @@
 [Audio-Visual Event Localization in Unconstrained Videos](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yapeng_Tian_Audio-Visual_Event_Localization_ECCV_2018_paper.pdf) - Tian, Y., Shi, J., Li, B., Duan, Z., & Xu, C. (ECCV 2018) [[project page]](https://sites.google.com/view/audiovisualresearch) [[code]](https://github.com/YapengTian/AVE-ECCV18)
 
 ## Audio-Visual Separation
-[Co-Separating Sounds of Visual Objects](https://arxiv.org/pdf/1904.07750.pdf) - Gao, R. & Grauman, K. (arXiv 2019) [[project page]](http://vision.cs.utexas.edu/projects/coseparation/)
+[Recursive Visual Sound Separation Using Minus-Plus Net](http://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Recursive_Visual_Sound_Separation_Using_Minus-Plus_Net_ICCV_2019_paper.pdf) - Xudong Xu, Bo Dai, Dahua Lin (ICCV 2019)
 
-[The sound of Motions](https://arxiv.org/pdf/1904.05979.pdf) - Zhao, H., Gan, C., Ma, W. & Torralba, A. (arXiv 2019)
+[Co-Separating Sounds of Visual Objects](https://arxiv.org/pdf/1904.07750.pdf) - Gao, R. & Grauman, K. (ICCV 2019) [[project page]](http://vision.cs.utexas.edu/projects/coseparation/)
+
+[The sound of Motions](https://arxiv.org/pdf/1904.05979.pdf) - Zhao, H., Gan, C., Ma, W. & Torralba, A. (ICCV 2019)
 
 [Learning to Separate Object Sounds by Watching Unlabeled Video](http://vision.cs.utexas.edu/projects/separating_object_sounds/sound-sep-eccv2018.pdf) - Gao, R., Feris, R., & Grauman, K. (ECCV 2018 (Oral)) [[project page]](http://vision.cs.utexas.edu/projects/separating_object_sounds/) [[code]](https://github.com/rhgao/Deep-MIML-Network) [[dataset]](http://vision.cs.utexas.edu/projects/separating_object_sounds/#data)
 
@@ -42,21 +46,32 @@
 
 [Cross-Modal Embeddings for Video and Audio Retrieval](https://arxiv.org/pdf/1801.02200.pdf) -Surís, D., Duarte, A., Salvador, A., Torres, J., & Giró-i-Nieto, X. (ECCVW, 2018)
 
+## Audio-Visual Action Recognition
+[Listen to Look: Action Recognition by Previewing Audio](https://arxiv.org/pdf/1912.04487.pdf) -  Ruohan Gao, Tae-Hyun Oh, Kristen Grauman, Lorenzo Torresani (ArXiv 2019) [[project page]](http://vision.cs.utexas.edu/projects/listen_to_look/)
+
+[Uncertainty-aware Audiovisual Activity Recognition using Deep Bayesian Variational Inference](http://openaccess.thecvf.com/content_ICCV_2019/papers/Subedar_Uncertainty-Aware_Audiovisual_Activity_Recognition_Using_Deep_Bayesian_Variational_Inference_ICCV_2019_paper.pdf) - Subedar, M., Krishnan, R., Meyer, P. L., Tickoo, O., & Huang, J. (ICCV 2019)
+
+[Seeing and Hearing Egocentric Actions: How Much Can We Learn?](http://openaccess.thecvf.com/content_ICCVW_2019/papers/EPIC/Cartas_Seeing_and_Hearing_Egocentric_Actions_How_Much_Can_We_Learn_ICCVW_2019_paper.pdf) - Cartas, A., Luque, J., Radeva, P., Segura, C., & Dimiccoli, M. (ICCVW 2019)
+
+[How Much Does Audio Matter to Recognize Egocentric Object Interactions?](https://arxiv.org/pdf/1906.00634.pdf) - Cartas, A., Luque, J., Radeva, P., Segura, C., & Dimiccoli, M. (EPIC CVPRW 2019)
+
 ## Audio-Visual Faces/Speech
-[Reconstructing faces from voices](https://arxiv.org/pdf/1905.10604.pdf) - (Yandong Wen, Rita Singh, Bhiksha Raj (NIPS 2019))[[project page]](https://github.com/cmu-mlsp/reconstructing_faces_from_voices)
+[Reconstructing faces from voices](https://arxiv.org/pdf/1905.10604.pdf) - Yandong Wen, Rita Singh, Bhiksha Raj (NIPS 2019)[[project page]](https://github.com/cmu-mlsp/reconstructing_faces_from_voices)
 
-[Learning Individual Styles of Conversational Gesture](https://arxiv.org/pdf/1906.04160.pdf) - (Ginosar, S., Bar, A., Kohavi, G., Chan, C., Owens, A., & Malik, J. (CVPR 2019)) [[project page]](http://people.eecs.berkeley.edu/~shiry/projects/speech2gesture/) [[dataset]](https://drive.google.com/drive/folders/1qvvnfGwas8DUBrwD4DoBnvj8anjSLldZ)
+[Learning Individual Styles of Conversational Gesture](https://arxiv.org/pdf/1906.04160.pdf) - Ginosar, S., Bar, A., Kohavi, G., Chan, C., Owens, A., & Malik, J. (CVPR 2019) [[project page]](http://people.eecs.berkeley.edu/~shiry/projects/speech2gesture/) [[dataset]](https://drive.google.com/drive/folders/1qvvnfGwas8DUBrwD4DoBnvj8anjSLldZ)
 
-[Hierarchical Cross-Modal Talking Face Generation with Dynamic Pixel-Wise Loss](https://www.cs.rochester.edu/u/lchen63/cvpr2019.pdf) - (Chen, L., Maddox, R. K., Duan, Z., & Xu, C. (CVPR 2019))[[project page]](https://github.com/lelechen63/ATVGnet)
+[Hierarchical Cross-Modal Talking Face Generation with Dynamic Pixel-Wise Loss](https://www.cs.rochester.edu/u/lchen63/cvpr2019.pdf) - Chen, L., Maddox, R. K., Duan, Z., & Xu, C. (CVPR 2019)[[project page]](https://github.com/lelechen63/ATVGnet)
 
-[Speech2Face: Learning the Face Behind a Voice](https://arxiv.org/pdf/1905.09773.pdf) - (Oh, T. H., Dekel, T., Kim, C., Mosseri, I., Freeman, W. T., Rubinstein, M., & Matusik, W. (CVPR 2019))[[project page]](https://speech2face.github.io/)
+[Speech2Face: Learning the Face Behind a Voice](https://arxiv.org/pdf/1905.09773.pdf) - Oh, T. H., Dekel, T., Kim, C., Mosseri, I., Freeman, W. T., Rubinstein, M., & Matusik, W. (CVPR 2019)[[project page]](https://speech2face.github.io/)
 
-[Disjoint mapping network for cross-modal matching of voices and faces](https://openreview.net/pdf?id=B1exrnCcF7) - (Wen, Y., Ismail, M. A., Liu, W., Raj, B., & Singh, R. (ICLR 2019))[[project page]](https://github.com/ydwen/DIMNet)
+[Talking Face Generation by Adversarially Disentangled Audio-Visual Representation](https://arxiv.org/pdf/1807.07860.pdf) - Hang Zhou, Yu Liu, Ziwei Liu, Ping Luo, Xiaogang Wang (AAAI 2019) [[project page]](https://liuziwei7.github.io/projects/TalkingFace) [[code]](https://github.com/Hangz-nju-cuhk/Talking-Face-Generation-DAVS)
+
+[Disjoint mapping network for cross-modal matching of voices and faces](https://openreview.net/pdf?id=B1exrnCcF7) - Wen, Y., Ismail, M. A., Liu, W., Raj, B., & Singh, R. (ICLR 2019)[[project page]](https://github.com/ydwen/DIMNet)
 
 
-[X2Face: A network for controlling face generation using images, audio, and pose codes](http://openaccess.thecvf.com/content_ECCV_2018/papers/Olivia_Wiles_X2Face_A_network_ECCV_2018_paper.pdf) - (Wiles, O., Sophia Koepke, A., & Zisserman, A. (ECCV 2018))[[project page]](http://www.robots.ox.ac.uk/~vgg/research/unsup_learn_watch_faces/x2face.html)[[code]](https://github.com/oawiles/X2Face)
+[X2Face: A network for controlling face generation using images, audio, and pose codes](http://openaccess.thecvf.com/content_ECCV_2018/papers/Olivia_Wiles_X2Face_A_network_ECCV_2018_paper.pdf) - Wiles, O., Sophia Koepke, A., & Zisserman, A. (ECCV 2018)[[project page]](http://www.robots.ox.ac.uk/~vgg/research/unsup_learn_watch_faces/x2face.html)[[code]](https://github.com/oawiles/X2Face)
 
-[Learnable PINs: Cross-Modal Embeddings for Person Identity](https://arxiv.org/pdf/1805.00833.pdf) - (Nagrani, A., Albanie, S., & Zisserman, A. (ECCV 2018)[[project page]](http://www.robots.ox.ac.uk/~vgg/research/LearnablePins/)
+[Learnable PINs: Cross-Modal Embeddings for Person Identity](https://arxiv.org/pdf/1805.00833.pdf) - Nagrani, A., Albanie, S., & Zisserman, A. (ECCV 2018)[[project page]](http://www.robots.ox.ac.uk/~vgg/research/LearnablePins/)
 
 [Seeing voices and hearing faces: Cross-modal biometric matching](http://www.robots.ox.ac.uk/~vgg/publications/2018/Nagrani18a/nagrani18a.pdf) - Nagrani, A., Albanie, S., & Zisserman, A. (CVPR 2018) [[project page]](http://www.robots.ox.ac.uk/~vgg/research/CMBiometrics/)[[code]](https://github.com/a-nagrani/SVHF-Net)(trained moodel only)
 
@@ -67,6 +82,8 @@
 [VoxCeleb: a large-scale speaker identification dataset](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/nagrani17.pdf) - Nagrani, A., Chung, J. S., & Zisserman, A. (Interspeech 2017) [[project page]](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/)[[code]](https://github.com/a-nagrani/VGGVox) [[dataset]](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
 
 ### Cross-modal Generation (Audio-Video / Video-Audio)
+[Unpaired Image-to-Speech Synthesis with Multimodal Information Bottleneck](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ma_Unpaired_Image-to-Speech_Synthesis_With_Multimodal_Information_Bottleneck_ICCV_2019_paper.pdf) - (Shuang Ma, Daniel McDuff, Yale Song (ICCV 2019)) [[code]](https://github.com/yunyikristy/skipNet)
+
 [Listen to the Image](https://arxiv.org/pdf/1904.09115.pdf) - (Hu, D., Wang, D., Li, X., Nie, F., & Wang, Q. (CVPR 2019))
 
 [Visual to Sound: Generating Natural Sound for Videos in the Wild](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_Visual_to_Sound_CVPR_2018_paper.pdf) - (Zhou, Y., Wang, Z., Fang, C., Bui, T., & Berg, T. L. (CVPR 2018))[[project page]](http://bvision11.cs.unc.edu/bigpen/yipin/visual2sound_webpage/visual2sound.html)
@@ -82,6 +99,9 @@
 [MFAS: Multimodal Fusion Architecture Search](http://openaccess.thecvf.com/content_CVPR_2019/papers/Perez-Rua_MFAS_Multimodal_Fusion_Architecture_Search_CVPR_2019_paper.pdf) - Pérez-Rúa, J. M., Vielzeuf, V., Pateux, S., Baccouche, M., & Jurie, F. (CVPR 2019)
 
 ### Uncategorozed Papers
+[Self-supervised Moving Vehicle Tracking with Stereo Sound](http://openaccess.thecvf.com/content_ICCV_2019/papers/Gan_Self-Supervised_Moving_Vehicle_Tracking_With_Stereo_Sound_ICCV_2019_paper.pdf) - Gan, C., Zhao, H., Chen, P., Cox, D., & Torralba, A. (ICCV 2019)
+
+[Vision-Infused Deep Audio Inpainting](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Vision-Infused_Deep_Audio_Inpainting_ICCV_2019_paper.pdf) - Zhou, H., Liu, Z., Xu, X., Luo, P., & Wang, X. (ICCV 2019) [[project page]](https://hangz-nju-cuhk.github.io/projects/AudioInpainting) [[code]](https://github.com/Hangz-nju-cuhk/Vision-Infused-Audio-Inpainter-VIAI)
 
 [ISNN: Impact Sound Neural Network for Audio-Visual Object Classification](http://openaccess.thecvf.com/content_ECCV_2018/papers/Auston_Sterling_ISNN_-_Impact_ECCV_2018_paper.pdf) - Sterling, A., Wilson, J., Lowe, S., & Lin, M. C. (ECCV 2018) [[project page]](http://gamma.cs.unc.edu/ISNN/) [[dataset1]](https://drive.google.com/drive/folders/1lVYYMTOLItozaU-vAa0OoXQr_4VfmqVg?usp=sharing)[[dataset2]](https://drive.google.com/drive/folders/1p0HAlrsoydYFuWginPuhiDQjncAvSQon?usp=sharing) [[model]](http://gamma.cs.unc.edu/ISNN/ModelNet_URLs_WAV_PLY.pdf)
 
