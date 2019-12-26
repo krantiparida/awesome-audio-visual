@@ -6,8 +6,8 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
  - [Audio-Visual Separation](#Audio-Visual-Separation)
  - [Audio-Visual Representaion](#Audio-Visual-Representation)
  - [Audio-Visual Action Recognition](#Audio-Visual-Action-Recognition)
- - [Audio-Visual Faces/Speech](#Audio-Visual-Faces/Speech)
- - [Cross-modal Generation (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video-/-Video-Audio))
+ - [Audio-Visual Faces/Speech](#Audio-Visual-Facesspeech)
+ - [Cross-modal Generation (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio))
  - [Multi-modal Architectures](#Multi-modal-Architectures)
  - [Uncategorized Papers](#Uncategorized-Papers)
 
@@ -26,6 +26,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [The Sound of Pixels](https://arxiv.org/pdf/1804.03160.pdf) - Zhao, H., Gan, C., Rouditchenko, A., Vondrick, C., McDermott, J., & Torralba, A. (ECCV 2018) [[project page]](http://sound-of-pixels.csail.mit.edu/)[[code]](https://github.com/hangzhaomit/Sound-of-Pixels) [[dataset]](https://github.com/roudimit/MUSIC_dataset)
 
 #### Audio-Visual Representation
+* [Self-Supervised Learning by Cross-Modal Audio-Video Clustering](https://arxiv.org/pdf/1911.12667.pdf) - Alwassel, H., Mahajan, D., Torresani, L., Ghanem, B., & Tran, D. (ArXiv 2019)
 * [Deep Multimodal Clustering for Unsupervised Audiovisual Learning](https://arxiv.org/pdf/1807.03094.pdf) - (Hu, D., Nie, F., & Li, X. (CVPR 2019))
 * [Cooperative learning of audio and video models from self-supervised synchronization](http://papers.nips.cc/paper/8002-cooperative-learning-of-audio-and-video-models-from-self-supervised-synchronization.pdf) - (Korbar, B., Tran, D., & Torresani, L. (NeurIPS 2108)) [[project page]](http://vlg.cs.dartmouth.edu/projects/avts/)[[trained model 1]](http://vlg.cs.dartmouth.edu/projects/avts/model_mc3_as.pt)[[trained model 2]](http://vlg.cs.dartmouth.edu/projects/avts/model_mc2_as.pt)
 * [Multimodal Attention for Fusion of Audio and Spatiotemporal Features for Video Description](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Hori_Multimodal_Attention_for_CVPR_2018_paper.pdf) - Hori, C., Hori, T., Wichern, G., Wang, J., Lee, T. Y., Cherian, A., & Marks, T. K. (CVPRW 2018)
