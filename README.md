@@ -6,12 +6,16 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
  - [Audio-Visual Separation](#Audio-Visual-Separation)
  - [Audio-Visual Representaion](#Audio-Visual-Representation)
  - [Audio-Visual Action Recognition](#Audio-Visual-Action-Recognition)
+ - [Audio-Visual Spatial/Depth](#Audio-Visual-Spatialdepth)
  - [Audio-Visual Faces/Speech](#Audio-Visual-Facesspeech)
  - [Cross-modal Generation (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio))
  - [Multi-modal Architectures](#Multi-modal-Architectures)
  - [Uncategorized Papers](#Uncategorized-Papers)
 
 #### Audio-Visual Localization
+* [Learning Differentiable Sparse and Low Rank Networks for Audio-Visual Object Localization](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9054280) - Pu, J., Panagakis, Y., & Pantic, M. (ICASSP 2020)
+* [What Makes the Sound?: A Dual-Modality Interacting Network for Audio-Visual Event Localization](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9053895) - Ramaswamy, J. (ICASSP 2020)
+* [Self-supervised learning for audio-visual speaker diarization](https://arxiv.org/pdf/2002.05314.pdf) - Ding, Y., Xu, Y., Zhang, S. X., Cong, Y., & Wang, L. (ICASSP 2020)
 * [See the Sound, Hear the Pixels](http://openaccess.thecvf.com/content_WACV_2020/papers/Ramaswamy_See_the_Sound_Hear_the_Pixels_WACV_2020_paper.pdf) - Ramaswamy, J., & Das, S. (WACV 2020)
 * [Dual Attention Matching for Audio-Visual Event Localization](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wu_Dual_Attention_Matching_for_Audio-Visual_Event_Localization_ICCV_2019_paper.pdf) - Wu, Y., Zhu, L., Yan, Y., & Yang, Y. (ICCV 2019)
 * [Weakly Supervised Representation Learning for Unsynchronized Audio-Visual Events](https://arxiv.org/pdf/1804.07345.pdf) - Parekh, S., Essid, S., Ozerov, A., Duong, N. Q., Pérez, P., & Richard, G. (arxiv, 2018) [CPVRW2018](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Parekh_Weakly_Supervised_Representation_CVPR_2018_paper.pdf)
@@ -20,15 +24,19 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Audio-Visual Event Localization in Unconstrained Videos](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yapeng_Tian_Audio-Visual_Event_Localization_ECCV_2018_paper.pdf) - Tian, Y., Shi, J., Li, B., Duan, Z., & Xu, C. (ECCV 2018) [[project page]](https://sites.google.com/view/audiovisualresearch) [[code]](https://github.com/YapengTian/AVE-ECCV18)
 
 #### Audio-Visual Separation
+* [Visually Guided Sound Source Separation using Cascaded Opponent Filter Network. arXiv](https://arxiv.org/pdf/2006.03028.pdf) - Zhu, L., & Rahtu, E. (arXiv 2020) [[project page]](https://ly-zhu.github.io/cof-net)
+* [Music Gesture for Visual Sound Separation](https://arxiv.org/pdf/2004.09476.pdf) - Gan, C., Huang, D., Zhao, H., Tenenbaum, J. B., & Torralba, A. (CVPR 2020) [[project page]](http://music-gesture.csail.mit.edu/) [[code]](http://music-gesture.csail.mit.edu/#code)
 * [Recursive Visual Sound Separation Using Minus-Plus Net](http://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Recursive_Visual_Sound_Separation_Using_Minus-Plus_Net_ICCV_2019_paper.pdf) - Xudong Xu, Bo Dai, Dahua Lin (ICCV 2019)
 * [Co-Separating Sounds of Visual Objects](https://arxiv.org/pdf/1904.07750.pdf) - Gao, R. & Grauman, K. (ICCV 2019) [[project page]](http://vision.cs.utexas.edu/projects/coseparation/)
 * [The sound of Motions](https://arxiv.org/pdf/1904.05979.pdf) - Zhao, H., Gan, C., Ma, W. & Torralba, A. (ICCV 2019)
 * [Learning to Separate Object Sounds by Watching Unlabeled Video](http://vision.cs.utexas.edu/projects/separating_object_sounds/sound-sep-eccv2018.pdf) - Gao, R., Feris, R., & Grauman, K. (ECCV 2018 (Oral)) [[project page]](http://vision.cs.utexas.edu/projects/separating_object_sounds/) [[code]](https://github.com/rhgao/Deep-MIML-Network) [[dataset]](http://vision.cs.utexas.edu/projects/separating_object_sounds/#data)
 * [The Sound of Pixels](https://arxiv.org/pdf/1804.03160.pdf) - Zhao, H., Gan, C., Rouditchenko, A., Vondrick, C., McDermott, J., & Torralba, A. (ECCV 2018) [[project page]](http://sound-of-pixels.csail.mit.edu/) [[code]](https://github.com/hangzhaomit/Sound-of-Pixels) [[dataset]](https://github.com/roudimit/MUSIC_dataset)
 
-#### Audio-Visual Representation
+#### Audio-Visual Representation/Classification
+* [Vggsound: A Large-Scale Audio-Visual Dataset](https://www.robots.ox.ac.uk/~vgg/publications/2020/Chen20/chen20.pdf) - Chen, H., Xie, W., Vedaldi, A., & Zisserman, A. (ICASSP 2020) [[project page/dataset]](http://www.robots.ox.ac.uk/~vgg/data/vggsound/) [[code]](https://github.com/hche11/VGGSound)
+* [Large Scale Audiovisual Learning of Sounds with Weakly Labeled Data](https://arxiv.org/pdf/2006.01595.pdf) - Fayek, H. M., & Kumar, A. (IJCAI 2020)
 * [Multi-modal Self-Supervision from Generalized Data Transformations](https://arxiv.org/pdf/2003.04298.pdf) - Patrick, M., Asano, Y. M., Fong, R., Henriques, J. F., Zweig, G., & Vedaldi, A. (arXiv 2020)
-* [Curriculum Audiovisual Learning](https://arxiv.org/pdf/2001.09414.pdf) - Hu, D., Wang, Z., Xiong, H., Wang, D., Nie, F., & Dou, D. (arXiv 2020).
+* [Curriculum Audiovisual Learning](https://arxiv.org/pdf/2001.09414.pdf) - Hu, D., Wang, Z., Xiong, H., Wang, D., Nie, F., & Dou, D. (arXiv 2020)
 * [Audio-visual model distillation using acoustic images]() - Perez, A., Sanguineti, V., Morerio, P., & Murino, V. (WACV 2020) [[code]](https://github.com/afperezm/acoustic-images-distillation) [[dataset]](https://pavis.iit.it/datasets/audio-visually-indicated-actions-dataset)
 * [Coordinated Joint Multimodal Embeddings for Generalized Audio-Visual Zero-shot Classification and Retrieval of Videos](http://openaccess.thecvf.com/content_WACV_2020/papers/Parida_Coordinated_Joint_Multimodal_Embeddings_for_Generalized_Audio-Visual_Zero-shot_Classification_and_WACV_2020_paper.pdf) - Parida, K., Matiyali, N., Guha, T., & Sharma, G. (WACV 2020) [[project page]](https://www.cse.iitk.ac.in/users/kranti/avzsl.html)[[Dataset]](https://github.com/krantiparida/AudioSetZSL)
 * [Self-Supervised Learning by Cross-Modal Audio-Video Clustering](https://arxiv.org/pdf/1911.12667.pdf) - Alwassel, H., Mahajan, D., Torresani, L., Ghanem, B., & Tran, D. (arXiv 2019)
@@ -51,7 +59,22 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Seeing and Hearing Egocentric Actions: How Much Can We Learn?](http://openaccess.thecvf.com/content_ICCVW_2019/papers/EPIC/Cartas_Seeing_and_Hearing_Egocentric_Actions_How_Much_Can_We_Learn_ICCVW_2019_paper.pdf) - Cartas, A., Luque, J., Radeva, P., Segura, C., & Dimiccoli, M. (ICCVW 2019)
 * [How Much Does Audio Matter to Recognize Egocentric Object Interactions?](https://arxiv.org/pdf/1906.00634.pdf) - Cartas, A., Luque, J., Radeva, P., Segura, C., & Dimiccoli, M. (EPIC CVPRW 2019)
 
+#### Audio-Visual Spatial/Depth
+* [VisualEchoes: Spatial Image Representation Learning through Echolocation](https://arxiv.org/pdf/2005.01616.pdf) - Gao, R., Chen, C., Al-Halah, Z., Schissler, C., & Grauman, K. (arXiv 2020)
+* [BatVision with GCC-PHAT Features for Better Sound to Vision Predictions](http://sightsound.org/papers/2020/Jesper_Haahr_Christensen_BatVision_with_GCC-PHAT_Features_for_Better_Sound_to_Vision_Predictions.pdf) - Christensen, J. H., Hornauer, S., & Yu, S. (CVPRW 2020)
+* [Look, listen, and act: Towards audio-visual embodied navigation](https://arxiv.org/pdf/1912.11684.pdf) - Gan, C., Zhang, Y., Wu, J., Gong, B., & Tenenbaum, J. B. (ICRA 2020) [[project page/dataset]](http://avn.csail.mit.edu/)
+* [BatVision: Learning to See 3D Spatial Layout with Two Ears](https://arxiv.org/pdf/1912.07011.pdf) - Christensen, J. H., Hornauer, S., & Yu, S. (ICRA 2020) [[dataset/code]](https://github.com/SaschaHornauer/Batvision)
+* [Audio-Visual Embodied Navigation](https://arxiv.org/pdf/1912.11474.pdf) - Chen, C., Jain, U., Schissler, C., Gari, S. V. A., Al-Halah, Z., Ithapu, V. K., Robinson P., Grauman, K. (arXiv 2019) [[project page]](http://vision.cs.utexas.edu/projects/audio_visual_navigation/)
+* [Semantic Object Prediction and Spatial Sound Super-Resolution with Binaural Sounds](https://arxiv.org/pdf/2003.04210.pdf) - Vasudevan, A. B., Dai, D., & Van Gool, L. (arXiv 2020) [[project page]](https://www.trace.ethz.ch/publications/2020/sound_perception/index.html)
+* [Audio-Visual SfM towards 4D reconstruction under dynamic scenes](http://sightsound.org/papers/2020/Takashi_Konno_Audio-Visual_SfM_towards_4D_reconstruction_under_dynamic_scenes.pdf) -  Konno, A., Nishida K., Itoyama K., Nakadai K. (CVPRW 2020)
+* [Telling Left From Right: Learning Spatial Correspondence of Sight and Sound](http://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_Telling_Left_From_Right_Learning_Spatial_Correspondence_of_Sight_and_CVPR_2020_paper.pdf) - Yang, K., Russell, B., & Salamon, J. (CVPR 2020) [[project page / dataset]](https://karreny.github.io/telling-left-from-right/)
+
 #### Audio-Visual Faces/Speech
+* [Discriminative Multi-modality Speech Recognition](http://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_Discriminative_Multi-Modality_Speech_Recognition_CVPR_2020_paper.pdf) - Xu, B., Lu, C., Guo, Y., & Wang, J. (CVPR 2020)
+* [Learning Individual Speaking Styles for Accurate Lip to Speech Synthesis](http://openaccess.thecvf.com/content_CVPR_2020/papers/Prajwal_Learning_Individual_Speaking_Styles_for_Accurate_Lip_to_Speech_Synthesis_CVPR_2020_paper.pdf) -  Prajwal, K. R., Mukhopadhyay, R., Namboodiri, V. P., & Jawahar, C. V. (CVPR 2020) [[project page/dataset]](http://cvit.iiit.ac.in/research/projects/cvit-projects/speaking-by-observing-lip-movements#) [[code]](https://github.com/Rudrabha/Lip2Wav)
+* [DAVD-Net: Deep Audio-Aided Video Decompression of Talking Heads](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_DAVD-Net_Deep_Audio-Aided_Video_Decompression_of_Talking_Heads_CVPR_2020_paper.pdf) - Zhang, X., Wu, X., Zhai, X., Ben, X., & Tu, C. (CVPR 2020) 
+* [Learning to Have an Ear for Face Super-Resolution](http://openaccess.thecvf.com/content_CVPR_2020/papers/Meishvili_Learning_to_Have_an_Ear_for_Face_Super-Resolution_CVPR_2020_paper.pdf) - Meishvili, G., Jenni, S., & Favaro, P. (CVPR 2020) [[project page]](https://gmeishvili.github.io/ear_for_face_super_resolution/index.html) [[code]](https://github.com/gmeishvili/ear_for_face_super_resolution)
+* [Visually guided self supervised learning of speech representations](https://arxiv.org/pdf/2001.04316.pdf) - Shukla, A., Vougioukas, K., Ma, P., Petridis, S., & Pantic, M. (ICASSP 2020) 
 * [Disentangled Speech Embeddings using Cross-modal Self-supervision](https://arxiv.org/pdf/2002.08742.pdf) - Nagrani, A., Chung, J. S., Albanie, S., & Zisserman, A. (ICASSP 2020)
 * [Animating Face using Disentangled Audio Representations](http://openaccess.thecvf.com/content_WACV_2020/papers/Mittal_Animating_Face_using_Disentangled_Audio_Representations_WACV_2020_paper.pdf) - Mittal, G., & Wang, B. (WACV 2020)
 * [Reconstructing faces from voices](https://arxiv.org/pdf/1905.10604.pdf) - Yandong Wen, Rita Singh, Bhiksha Raj (NIPS 2019)[[project page]](https://github.com/cmu-mlsp/reconstructing_faces_from_voices)
@@ -69,6 +92,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [VoxCeleb: a large-scale speaker identification dataset](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/nagrani17.pdf) - Nagrani, A., Chung, J. S., & Zisserman, A. (Interspeech 2017) [[project page]](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/)[[code]](https://github.com/a-nagrani/VGGVox) [[dataset]](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
 
 #### Cross-modal Generation (Audio-Video / Video-Audio)
+* [Spectrogram Analysis Via Self-Attention for Realizing Cross-Model Visual-Audio Generation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9052918) - Tan, H., Wu, G., Zhao, P., & Chen, Y. (ICASSP 2020)
 * [Unpaired Image-to-Speech Synthesis with Multimodal Information Bottleneck](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ma_Unpaired_Image-to-Speech_Synthesis_With_Multimodal_Information_Bottleneck_ICCV_2019_paper.pdf) - (Shuang Ma, Daniel McDuff, Yale Song (ICCV 2019)) [[code]](https://github.com/yunyikristy/skipNet)
 * [Listen to the Image](https://arxiv.org/pdf/1904.09115.pdf) - (Hu, D., Wang, D., Li, X., Nie, F., & Wang, Q. (CVPR 2019))
 * [Visual to Sound: Generating Natural Sound for Videos in the Wild](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_Visual_to_Sound_CVPR_2018_paper.pdf) - (Zhou, Y., Wang, Z., Fang, C., Bui, T., & Berg, T. L. (CVPR 2018))[[project page]](http://bvision11.cs.unc.edu/bigpen/yipin/visual2sound_webpage/visual2sound.html)
@@ -79,6 +103,10 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [MFAS: Multimodal Fusion Architecture Search](http://openaccess.thecvf.com/content_CVPR_2019/papers/Perez-Rua_MFAS_Multimodal_Fusion_Architecture_Search_CVPR_2019_paper.pdf) - Pérez-Rúa, J. M., Vielzeuf, V., Pateux, S., Baccouche, M., & Jurie, F. (CVPR 2019)
 
 #### Uncategorized Papers
+* [Sight to sound: An end-to-end approach for visual piano transcription](http://www.robots.ox.ac.uk/~vgg/publications/2020/Koepke20/koepke20.pdf) - Koepke, A. S., Wiles, O., Moses, Y., & Zisserman, A. (ICASSP 2020) [[project page/dataset]](https://www.robots.ox.ac.uk/~vgg/research/sighttosound/)
+* [Solos: A Dataset for Audio-Visual Music Analysis](https://arxiv.org/pdf/2006.07931.pdf) - Montesinos, J. F., Slizovskaia, O., & Haro, G. (arXiv 2020) [[project page]](https://www.juanmontesinos.com/Solos/) [[dataset]](https://github.com/JuanFMontesinos/Solos)
+* [Cross-Task Transfer for Multimodal Aerial Scene Recognition](https://arxiv.org/pdf/2005.08449.pdf) - Hu, D., Li, X., Mou, L., Jin, P., Chen, D., Jing, L., ... & Dou, D. (arXiv 2020) [[code]](https://github.com/DTaoo/Multimodal-Aerial-Scene-Recognition) [[dataset]](https://zenodo.org/record/3828124)
+* [STAViS: Spatio-Temporal AudioVisual Saliency Network](http://openaccess.thecvf.com/content_CVPR_2020/papers/Tsiami_STAViS_Spatio-Temporal_AudioVisual_Saliency_Network_CVPR_2020_paper.pdf) - Tsiami, A., Koutras, P., & Maragos, P. (CVPR 2020) [[code]](https://github.com/atsiami/STAViS)
 * [AlignNet: A Unifying Approach to Audio-Visual Alignment](http://openaccess.thecvf.com/content_WACV_2020/papers/Wang_AlignNet_A_Unifying_Approach_to_Audio-Visual_Alignment_WACV_2020_paper.pdf) - Wang, J., Fang, Z., & Zhao, H. (WACV 2020) [[project page]](https://jianrenw.github.io/AlignNet/) [[code]](https://github.com/zfang399/AlignNet)
 * [Self-supervised Moving Vehicle Tracking with Stereo Sound](http://openaccess.thecvf.com/content_ICCV_2019/papers/Gan_Self-Supervised_Moving_Vehicle_Tracking_With_Stereo_Sound_ICCV_2019_paper.pdf) - Gan, C., Zhao, H., Chen, P., Cox, D., & Torralba, A. (ICCV 2019)
 * [Vision-Infused Deep Audio Inpainting](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhou_Vision-Infused_Deep_Audio_Inpainting_ICCV_2019_paper.pdf) - Zhou, H., Liu, Z., Xu, X., Luo, P., & Wang, X. (ICCV 2019) [[project page]](https://hangz-nju-cuhk.github.io/projects/AudioInpainting) [[code]](https://github.com/Hangz-nju-cuhk/Vision-Infused-Audio-Inpainter-VIAI)
@@ -100,6 +128,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [EPIC-Kitchens](https://epic-kitchens.github.io/2019) - Egocentric Audio-Visual Action Recogniton
 * [Audio-Visually Indicated Actions Dataset](https://pavis.iit.it/datasets/audio-visually-indicated-actions-dataset) - Multimodal dataset (RGB, acoustic data as raw audio) acquired using the acoustic-optical camera 
 * [IMSDb dataset](https://www.robots.ox.ac.uk/~vgg/research/speech2action/) - Movie scripts downloaded from The [Internet Script Movie Database](https://www.imsdb.com)
+* [YOUTUBE-ASMR-300K dataset](https://karreny.github.io/telling-left-from-right/) -  ASMR videos collected from YouTube that contains stereo audio
 #### Face-Voice Dataset
 * [VoxCeleb](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/) - Audio-Visual Speaker Identification, contains two versions
 * [EmoVoxCeleb](http://www.robots.ox.ac.uk/~vgg/research/cross-modal-emotions/)
