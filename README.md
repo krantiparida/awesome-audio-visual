@@ -23,6 +23,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Objects that Sound](https://arxiv.org/pdf/1712.06651.pdf) - Arandjelovic, R., & Zisserman, A. (ECCV 2018) 
 * [Audio-Visual Event Localization in Unconstrained Videos](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yapeng_Tian_Audio-Visual_Event_Localization_ECCV_2018_paper.pdf) - Tian, Y., Shi, J., Li, B., Duan, Z., & Xu, C. (ECCV 2018) [[project page]](https://sites.google.com/view/audiovisualresearch) [[code]](https://github.com/YapengTian/AVE-ECCV18)
 * [Audio-visual object localization and separation using low-rank and sparsity](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7952687) - Pu, J., Panagakis, Y., Petridis, S., & Pantic, M. (ICASSP 2017)
+
 #### Audio-Visual Separation
 * [Visually Guided Sound Source Separation using Cascaded Opponent Filter Network. arXiv](https://arxiv.org/pdf/2006.03028.pdf) - Zhu, L., & Rahtu, E. (arXiv 2020) [[project page]](https://ly-zhu.github.io/cof-net)
 * [Music Gesture for Visual Sound Separation](https://arxiv.org/pdf/2004.09476.pdf) - Gan, C., Huang, D., Zhao, H., Tenenbaum, J. B., & Torralba, A. (CVPR 2020) [[project page]](http://music-gesture.csail.mit.edu/) [[code]](http://music-gesture.csail.mit.edu/#code)
@@ -69,8 +70,8 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Semantic Object Prediction and Spatial Sound Super-Resolution with Binaural Sounds](https://arxiv.org/pdf/2003.04210.pdf) - Vasudevan, A. B., Dai, D., & Van Gool, L. (arXiv 2020) [[project page]](https://www.trace.ethz.ch/publications/2020/sound_perception/index.html)
 * [Audio-Visual SfM towards 4D reconstruction under dynamic scenes](http://sightsound.org/papers/2020/Takashi_Konno_Audio-Visual_SfM_towards_4D_reconstruction_under_dynamic_scenes.pdf) -  Konno, A., Nishida K., Itoyama K., Nakadai K. (CVPRW 2020)
 * [Telling Left From Right: Learning Spatial Correspondence of Sight and Sound](http://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_Telling_Left_From_Right_Learning_Spatial_Correspondence_of_Sight_and_CVPR_2020_paper.pdf) - Yang, K., Russell, B., & Salamon, J. (CVPR 2020) [[project page / dataset]](https://karreny.github.io/telling-left-from-right/)
-
 * [2.5D Visual Sound](http://openaccess.thecvf.com/content_CVPR_2019/papers/Gao_2.5D_Visual_Sound_CVPR_2019_paper.pdf) - Gao, R., & Grauman, K. (CVPR 2019) [[project page]](http://vision.cs.utexas.edu/projects/2.5D_visual_sound/) [[dataset]](https://github.com/facebookresearch/FAIR-Play) [[code]](https://github.com/facebookresearch/2.5D-Visual-Sound)
+* [Self-supervised generation of spatial audio for 360 video](https://papers.nips.cc/paper/7319-self-supervised-generation-of-spatial-audio-for-360-video.pdf) - Morgado, P., Nvasconcelos, N., Langlois, T., & Wang, O. (NeurIPS 2018) [[project page]](https://pedro-morgado.github.io/spatialaudiogen/) [[code/dataset]](https://github.com/pedro-morgado/spatialaudiogen)
 
 #### Audio-Visual Faces/Speech
 * [Discriminative Multi-modality Speech Recognition](http://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_Discriminative_Multi-Modality_Speech_Recognition_CVPR_2020_paper.pdf) - Xu, B., Lu, C., Guo, Y., & Wang, J. (CVPR 2020)
@@ -102,6 +103,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Visual to Sound: Generating Natural Sound for Videos in the Wild](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_Visual_to_Sound_CVPR_2018_paper.pdf) - (Zhou, Y., Wang, Z., Fang, C., Bui, T., & Berg, T. L. (CVPR 2018))[[project page]](http://bvision11.cs.unc.edu/bigpen/yipin/visual2sound_webpage/visual2sound.html)
 * [Image generation associated with music data](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Qiu_Image_Generation_Associated_CVPR_2018_paper.pdf) - Qiu, Y., & Kataoka, H. (CVPRW 2018)
 * [CMCGAN: A uniform framework for cross-modal visual-audio mutual generation](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17153/16274) - Hao, W., Zhang, Z., & Guan, H. (AAAI 2018) 
+
 #### Multi-modal Architectures
 * [What Makes Training Multi-Modal Networks Hard?](https://arxiv.org/pdf/1905.12681.pdf) - Wang, W., Tran, D., & Feiszli, M. (ArXiv 2019) 
 * [MFAS: Multimodal Fusion Architecture Search](http://openaccess.thecvf.com/content_CVPR_2019/papers/Perez-Rua_MFAS_Multimodal_Fusion_Architecture_Search_CVPR_2019_paper.pdf) - Pérez-Rúa, J. M., Vielzeuf, V., Pateux, S., Baccouche, M., & Jurie, F. (CVPR 2019)
