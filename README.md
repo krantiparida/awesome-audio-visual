@@ -34,6 +34,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [The Sound of Pixels](https://arxiv.org/pdf/1804.03160.pdf) - Zhao, H., Gan, C., Rouditchenko, A., Vondrick, C., McDermott, J., & Torralba, A. (ECCV 2018) [[project page]](http://sound-of-pixels.csail.mit.edu/) [[code]](https://github.com/hangzhaomit/Sound-of-Pixels) [[dataset]](https://github.com/roudimit/MUSIC_dataset)
 
 #### Audio-Visual Representation/Classification
+* [Audio-Visual Instance Discrimination with Cross-Modal Agreement](https://arxiv.org/abs/2004.12943) - Morgado, P., Vasconcelos, N., & Misra, I. (arXiv 2020)
 * [Vggsound: A Large-Scale Audio-Visual Dataset](https://www.robots.ox.ac.uk/~vgg/publications/2020/Chen20/chen20.pdf) - Chen, H., Xie, W., Vedaldi, A., & Zisserman, A. (ICASSP 2020) [[project page/dataset]](http://www.robots.ox.ac.uk/~vgg/data/vggsound/) [[code]](https://github.com/hche11/VGGSound)
 * [Large Scale Audiovisual Learning of Sounds with Weakly Labeled Data](https://arxiv.org/pdf/2006.01595.pdf) - Fayek, H. M., & Kumar, A. (IJCAI 2020)
 * [Multi-modal Self-Supervision from Generalized Data Transformations](https://arxiv.org/pdf/2003.04298.pdf) - Patrick, M., Asano, Y. M., Fong, R., Henriques, J. F., Zweig, G., & Vedaldi, A. (arXiv 2020)
