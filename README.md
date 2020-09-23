@@ -39,6 +39,10 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [The Sound of Pixels](https://arxiv.org/pdf/1804.03160.pdf) - Zhao, H., Gan, C., Rouditchenko, A., Vondrick, C., McDermott, J., & Torralba, A. (ECCV 2018) [[project page]](http://sound-of-pixels.csail.mit.edu/) [[code]](https://github.com/hangzhaomit/Sound-of-Pixels) [[dataset]](https://github.com/roudimit/MUSIC_dataset)
 
 #### Audio-Visual Representation/Classification
+* [Look, Listen, and Attend: Co-Attention Network for Self-Supervised Audio-Visual Representation learning](https://arxiv.org/pdf/2008.05789.pdf) - Cheng, Y., Wang, R., Pan, Z., Feng, R., & Zhang, Y. (ACM MM 202)
+* [Cross-Task Transfer for Geotagged Audiovisual Aerial Scene Recognition](https://arxiv.org/pdf/2005.08449.pdf) - Di Hu, X. L., Mou, L., Jin, P., Chen, D., Jing, L., Zhu, X., & Dou, D. (ECCV 2020) [[code]](https://github.com/DTaoo/Multimodal-Aerial-Scene-Recognition)
+* [Leveraging Acoustic Images for Effective Self-Supervised Audio Representation Learning](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670120.pdf) - Sanguineti, V., Morerio, P., Pozzetti, N., Greco, D., Cristani, M., & Murino, V. (ECCV 2020) [[code]](https://github.com/IIT-PAVIS/acoustic-images-self-supervision)
+* [Self-Supervised Learning of Audio-Visual Objects from Video](https://arxiv.org/pdf/2008.04237.pdf) - Afouras, T., Owens, A., Chung, J. S., & Zisserman, A. (ECCV 2020) [[project page]](http://www.robots.ox.ac.uk/~vgg/research/avobjects/)
 * [Unified Multisensory Perception: Weakly-Supervised Audio-Visual Video Parsing](https://arxiv.org/pdf/2007.10558.pdf) - Tian, Y., Li, D., & Xu, C. (ECCV 2020) 
 * [Audio-Visual Instance Discrimination with Cross-Modal Agreement](https://arxiv.org/abs/2004.12943) - Morgado, P., Vasconcelos, N., & Misra, I. (arXiv 2020)
 * [Vggsound: A Large-Scale Audio-Visual Dataset](https://www.robots.ox.ac.uk/~vgg/publications/2020/Chen20/chen20.pdf) - Chen, H., Xie, W., Vedaldi, A., & Zisserman, A. (ICASSP 2020) [[project page/dataset]](http://www.robots.ox.ac.uk/~vgg/data/vggsound/) [[code]](https://github.com/hche11/VGGSound)
@@ -88,22 +92,27 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Learning Individual Speaking Styles for Accurate Lip to Speech Synthesis](http://openaccess.thecvf.com/content_CVPR_2020/papers/Prajwal_Learning_Individual_Speaking_Styles_for_Accurate_Lip_to_Speech_Synthesis_CVPR_2020_paper.pdf) -  Prajwal, K. R., Mukhopadhyay, R., Namboodiri, V. P., & Jawahar, C. V. (CVPR 2020) [[project page/dataset]](http://cvit.iiit.ac.in/research/projects/cvit-projects/speaking-by-observing-lip-movements#) [[code]](https://github.com/Rudrabha/Lip2Wav)
 * [DAVD-Net: Deep Audio-Aided Video Decompression of Talking Heads](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_DAVD-Net_Deep_Audio-Aided_Video_Decompression_of_Talking_Heads_CVPR_2020_paper.pdf) - Zhang, X., Wu, X., Zhai, X., Ben, X., & Tu, C. (CVPR 2020) 
 * [Learning to Have an Ear for Face Super-Resolution](http://openaccess.thecvf.com/content_CVPR_2020/papers/Meishvili_Learning_to_Have_an_Ear_for_Face_Super-Resolution_CVPR_2020_paper.pdf) - Meishvili, G., Jenni, S., & Favaro, P. (CVPR 2020) [[project page]](https://gmeishvili.github.io/ear_for_face_super_resolution/index.html) [[code]](https://github.com/gmeishvili/ear_for_face_super_resolution)
+* [ASR is all you need: Cross-modal distillation for lip reading](https://arxiv.org/pdf/1911.12747.pdf) - Afouras, T., Chung, J. S., & Zisserman, A. (ICASSP 2020)
 * [Visually guided self supervised learning of speech representations](https://arxiv.org/pdf/2001.04316.pdf) - Shukla, A., Vougioukas, K., Ma, P., Petridis, S., & Pantic, M. (ICASSP 2020) 
 * [Disentangled Speech Embeddings using Cross-modal Self-supervision](https://arxiv.org/pdf/2002.08742.pdf) - Nagrani, A., Chung, J. S., Albanie, S., & Zisserman, A. (ICASSP 2020)
 * [Animating Face using Disentangled Audio Representations](http://openaccess.thecvf.com/content_WACV_2020/papers/Mittal_Animating_Face_using_Disentangled_Audio_Representations_WACV_2020_paper.pdf) - Mittal, G., & Wang, B. (WACV 2020)
+* [Deep Audio-Visual Speech Recognition](http://www.robots.ox.ac.uk/~vgg/publications/2019/Afouras19/afouras18c.pdf) - T. Afouras, J.S. Chung*, A. Senior, O. Vinyals, A. Zisserman (TPAMI 2019)
 * [Reconstructing faces from voices](https://arxiv.org/pdf/1905.10604.pdf) - Yandong Wen, Rita Singh, Bhiksha Raj (NIPS 2019)[[project page]](https://github.com/cmu-mlsp/reconstructing_faces_from_voices)
 * [Learning Individual Styles of Conversational Gesture](https://arxiv.org/pdf/1906.04160.pdf) - Ginosar, S., Bar, A., Kohavi, G., Chan, C., Owens, A., & Malik, J. (CVPR 2019) [[project page]](http://people.eecs.berkeley.edu/~shiry/projects/speech2gesture/) [[dataset]](https://drive.google.com/drive/folders/1qvvnfGwas8DUBrwD4DoBnvj8anjSLldZ)
 * [Hierarchical Cross-Modal Talking Face Generation with Dynamic Pixel-Wise Loss](https://www.cs.rochester.edu/u/lchen63/cvpr2019.pdf) - Chen, L., Maddox, R. K., Duan, Z., & Xu, C. (CVPR 2019)[[project page]](https://github.com/lelechen63/ATVGnet)
 * [Speech2Face: Learning the Face Behind a Voice](https://arxiv.org/pdf/1905.09773.pdf) - Oh, T. H., Dekel, T., Kim, C., Mosseri, I., Freeman, W. T., Rubinstein, M., & Matusik, W. (CVPR 2019)[[project page]](https://speech2face.github.io/)
+* [My lips are concealed: Audio-visual speech enhancement through obstructions](https://arxiv.org/pdf/1907.04975.pdf) - Afouras, T., Chung, J. S., & Zisserman, A. (INTERSPEECH 2019) [[project page]](http://www.robots.ox.ac.uk/~vgg/research/concealed/)
 * [Talking Face Generation by Adversarially Disentangled Audio-Visual Representation](https://arxiv.org/pdf/1807.07860.pdf) - Hang Zhou, Yu Liu, Ziwei Liu, Ping Luo, Xiaogang Wang (AAAI 2019) [[project page]](https://liuziwei7.github.io/projects/TalkingFace) [[code]](https://github.com/Hangz-nju-cuhk/Talking-Face-Generation-DAVS)
 * [Disjoint mapping network for cross-modal matching of voices and faces](https://openreview.net/pdf?id=B1exrnCcF7) - Wen, Y., Ismail, M. A., Liu, W., Raj, B., & Singh, R. (ICLR 2019)[[project page]](https://github.com/ydwen/DIMNet)
 * [X2Face: A network for controlling face generation using images, audio, and pose codes](http://openaccess.thecvf.com/content_ECCV_2018/papers/Olivia_Wiles_X2Face_A_network_ECCV_2018_paper.pdf) - Wiles, O., Sophia Koepke, A., & Zisserman, A. (ECCV 2018)[[project page]](http://www.robots.ox.ac.uk/~vgg/research/unsup_learn_watch_faces/x2face.html)[[code]](https://github.com/oawiles/X2Face)
 * [Learnable PINs: Cross-Modal Embeddings for Person Identity](https://arxiv.org/pdf/1805.00833.pdf) - Nagrani, A., Albanie, S., & Zisserman, A. (ECCV 2018)[[project page]](http://www.robots.ox.ac.uk/~vgg/research/LearnablePins/)
 * [Seeing voices and hearing faces: Cross-modal biometric matching](http://www.robots.ox.ac.uk/~vgg/publications/2018/Nagrani18a/nagrani18a.pdf) - Nagrani, A., Albanie, S., & Zisserman, A. (CVPR 2018) [[project page]](http://www.robots.ox.ac.uk/~vgg/research/CMBiometrics/)[[code]](https://github.com/a-nagrani/SVHF-Net)(trained moodel only)
 * [Looking to Listen at the Cocktail Party: A Speaker-Independent Audio-Visual Model for Speech Separation](https://arxiv.org/pdf/1804.03619.pdf) - Ephrat, A., Mosseri, I., Lang, O., Dekel, T., Wilson, K., Hassidim, A., Freeman, W.T. and Rubinstein, M., (SIGGRAPH 2018) [[project page]](https://looking-to-listen.github.io/)
-* [VoxCeleb2: Deep Speaker Recognition](https://arxiv.org/pdf/1806.05622.pdf) - Nagrani, A., Chung, J. S., & Zisserman, A. (Interspeech 2018) [[dataset]](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
+* [The Conversation: Deep Audio-Visual Speech Enhancement](http://www.robots.ox.ac.uk/~vgg/demo/theconversation) - Afouras, T., Chung, J. S., & Zisserman, A. (INTERSPEECH 2018) [[project page]](http://www.robots.ox.ac.uk/~vgg/demo/theconversation/)
+* [VoxCeleb2: Deep Speaker Recognition](https://arxiv.org/pdf/1806.05622.pdf) - Nagrani, A., Chung, J. S., & Zisserman, A. (INTERSPEECH 2018) [[dataset]](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
 * [You said that?](http://www.robots.ox.ac.uk/~vgg/publications/2017/Chung17b/chung17b.pdf) - Son Chung, J., Jamaludin, A., & Zisserman, A. (BMVC 2017) [[project page]](http://www.robots.ox.ac.uk/~vgg/software/yousaidthat/) [[code]](https://github.com/joonson/yousaidthat)(trained model, evaluation code)
-* [VoxCeleb: a large-scale speaker identification dataset](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/nagrani17.pdf) - Nagrani, A., Chung, J. S., & Zisserman, A. (Interspeech 2017) [[project page]](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/)[[code]](https://github.com/a-nagrani/VGGVox) [[dataset]](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
+* [VoxCeleb: a large-scale speaker identification dataset](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/nagrani17.pdf) - Nagrani, A., Chung, J. S., & Zisserman, A. (INTERSPEECH 2017) [[project page]](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/)[[code]](https://github.com/a-nagrani/VGGVox) [[dataset]](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
+* [Out of time: automated lip sync in the wild](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16a/chung16a.pdf) - J.S. Chung & A. Zisserman (ACCVW 2016)
 
 #### Cross-modal Generation (Audio-Video / Video-Audio)
 * [Sound2Sight: Generating Visual Dynamics from Sound and Context](https://arxiv.org/pdf/2007.12130.pdf) - Cherian, A., Chatterjee, M., & Ahuja, N. (ECCV 2020)
@@ -152,13 +161,14 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [FAIR-Play](https://github.com/facebookresearch/FAIR-Play) - 1,871 video clips and their corresponding binaural audio clips recorded in a music room
 * [VGG-Sound](http://www.robots.ox.ac.uk/~vgg/data/vggsound/) - audio-visual correspondent dataset consisting of short clips of audio sounds, extracted from videos uploaded to YouTube
 * [XD-Violence](https://roc-ng.github.io/XD-Violence/) - weakly annotated dataset for audio-visual violence detection
+* [AuDio Visual Aerial sceNe reCognition datasEt (ADVANCE)](https://akchen.github.io/ADVANCE-DATASET/) - Geotagged aerial images and sounds, classified into 13 scene classes
 #### Face-Voice Dataset
 * [VoxCeleb](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/) - Audio-Visual Speaker Identification, contains two versions
 * [EmoVoxCeleb](http://www.robots.ox.ac.uk/~vgg/research/cross-modal-emotions/)
 * [Speech2Gesture](http://people.eecs.berkeley.edu/~shiry/projects/speech2gesture/) - Gesture prediction from speech
 * [AVSpeech](https://looking-to-listen.github.io/avspeech/)
 * [LRW Dataset](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrw1.html)
-
+* [LRS2](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html), [LRS3](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs3.html), [LRS3 Language](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs3-lang.html) - Lip Reading Datasets
 
 
 ## Licenses
