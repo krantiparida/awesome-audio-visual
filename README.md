@@ -14,6 +14,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
  - [Uncategorized Papers](#Uncategorized-Papers)
 
 #### Audio-Visual Localization
+* [Discriminative Sounding Objects Localization via Self-supervised Audiovisual Matching](https://arxiv.org/pdf/2010.05466.pdf) - Hu, D., Qian, R., Jiang, M., Tan, X., Wen, S., Ding, E., Lin, W., Dou, D. (NeurIPS 2020) [[code]](https://github.com/DTaoo/Discriminative-Sounding-Objects-Localization) [[dataset]](https://zenodo.org/record/4079386#.X4PFodozbb2) [[demo]](https://www.youtube.com/watch?v=XRU-R32t6rU&feature=youtu.be)
 * [Not only Look, but also Listen: Learning Multimodal Violence Detection under Weak Supervision](https://arxiv.org/pdf/2007.04687.pdf) - Wu, P., Liu, J., Shi, Y., Sun, Y., Shao, F., Wu, Z., & Yang, Z. (ECCV 2020)[[project page/dataset]](https://roc-ng.github.io/XD-Violence/)
 * [Do We Need Sound for Sound Source Localization?](https://arxiv.org/pdf/2007.05722.pdf) - Oya, T., Iwase, S., Natsume, R., Itazuri, T., Yamaguchi, S., & Morishima, S. (arXiv 2020)
 * [Multiple Sound Sources Localization from Coarse to Fine](https://arxiv.org/pdf/2007.06355.pdf) - Qian, R., Hu, D., Dinkel, H., Wu, M., Xu, N., & Lin, W. (ECCV 2020) [[code]](https://github.com/shvdiwnkozbw/Multi-Source-Sound-Localization)
@@ -162,6 +163,8 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [VGG-Sound](http://www.robots.ox.ac.uk/~vgg/data/vggsound/) - audio-visual correspondent dataset consisting of short clips of audio sounds, extracted from videos uploaded to YouTube
 * [XD-Violence](https://roc-ng.github.io/XD-Violence/) - weakly annotated dataset for audio-visual violence detection
 * [AuDio Visual Aerial sceNe reCognition datasEt (ADVANCE)](https://akchen.github.io/ADVANCE-DATASET/) - Geotagged aerial images and sounds, classified into 13 scene classes
+* [auDIoviSual Crowd cOunting dataset (DISCO)](https://zenodo.org/record/3828468) - 1,935 Images and audios from various typical scenes, a total of 170, 270 instances annotated with the head locations.
+* [MUSIC-Synthetic dataset](https://zenodo.org/record/4079386#.X4PFodozbb2)- Category-balanced multi-source videos by artificially synthesizing solo videos from the [MUSIC](https://github.com/roudimit/MUSIC_dataset) dataset, to facilitate the learning and evaluation of multiple-soundings-sources localization in the cocktail-party scenario.
 #### Face-Voice Dataset
 * [VoxCeleb](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/) - Audio-Visual Speaker Identification, contains two versions
 * [EmoVoxCeleb](http://www.robots.ox.ac.uk/~vgg/research/cross-modal-emotions/)
