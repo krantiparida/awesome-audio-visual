@@ -53,6 +53,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [The Sound of Pixels](https://arxiv.org/pdf/1804.03160.pdf) - Zhao, H., Gan, C., Rouditchenko, A., Vondrick, C., McDermott, J., & Torralba, A. (ECCV 2018) [[project page]](http://sound-of-pixels.csail.mit.edu/) [[code]](https://github.com/hangzhaomit/Sound-of-Pixels) [[dataset]](https://github.com/roudimit/MUSIC_dataset)
 
 #### Audio-Visual Representation/Classification
+* [Learning State-Aware Visual Representations from Audible Interactions](https://arxiv.org/abs/2209.13583) - Himangi Mittal, Pedro Morgado, Unnat Jain, Abhinav Gupta. (NeurIPS 2022) [[code]](https://github.com/HimangiM/RepLAI)
 * [ACAV100M: Automatic Curation of Large-Scale Datasets for Audio-Visual Video Representation Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_ACAV100M_Automatic_Curation_of_Large-Scale_Datasets_for_Audio-Visual_Video_Representation_ICCV_2021_paper.pdf) - Lee, S., Chung, J., Yu, Y., Kim, G., Breuel, T., Chechik, G., & Song, Y. (ICCV 2021) [[code]](https://github.com/sangho-vision/acav100m) [[project page]](https://acav100m.github.io/)
 * [Spoken moments: Learning joint audio-visual representations from video descriptions](https://arxiv.org/pdf/2105.04489.pdf) - Monfort, M., Jin, S., Liu, A., Harwath, D., Feris, R., Glass, J., & Oliva, A. (CVPR 2021) [[project page/dataset]](http://moments.csail.mit.edu/spoken.html)
 * [Robust Audio-Visual Instance Discrimination](https://arxiv.org/pdf/2103.15916.pdf) - Morgado, P., Misra, I., & Vasconcelos, N. (CVPR 2021) 
