@@ -14,6 +14,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
  - [Uncategorized Papers](#Uncategorized-Papers)
 
 #### Audio-Visual Localization
+* [Multi-modal Grouping Network for Weakly-Supervised Audio-Visual Video Parsing](https://openreview.net/pdf?id=zfo2LqFEVY) - Mo S., Tian Y. (NeurIPS 2022) [[code]](https://github.com/stoneMo/MGN)
 * [Exploring Cross-Video and Cross-Modality Signals for Weakly-Supervised Audio-Visual Video Parsing](https://proceedings.neurips.cc/paper/2021/file/5f93f983524def3dca464469d2cf9f3e-Paper.pdf) - Lin, Y. B., Tseng, H. Y., Lee, H. Y., Lin, Y. Y., & Yang, M. H. (NeurIPS 2021)
 * [Localizing Visual Sounds the Hard Way](https://arxiv.org/pdf/2104.02691.pdf) - Chen, H., Xie, W., Afouras, T., Nagrani, A., Vedaldi, A., & Zisserman, A. (CVPR 2021) [[code]](https://github.com/hche11/Localizing-Visual-Sounds-the-Hard-Way) [[project page]](https://www.robots.ox.ac.uk/~vgg/research/lvs/)
 * [Positive Sample Propagation along the Audio-Visual Event Line](https://arxiv.org/pdf/2104.00239.pdf) - Zhou, J., Zheng, L., Zhong, Y., Hao, S., & Wang, M. (CVPR 2021) [[code]](https://github.com/jasongief/PSP_CVPR_2021) 
