@@ -15,6 +15,9 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 
 #### Audio-Visual Localization
 * [A Closer Look at Weakly-Supervised Audio-Visual Source Localization](https://papers.nips.cc/paper_files/paper/2022/file/f3f2ff9579ba6deeb89caa2fe1f0b99c-Paper-Conference.pdf) - Mo, S., & Morgado, P. (NeurIPS 2022) [[code]](https://github.com/stoneMo/SLAVC) 
+* [Audio-Visual Grouping Network for Sound Localization from Mixtures](https://arxiv.org/pdf/2303.17056.pdf) - Mo S., Tian Y. (CVPR 2023) [[code]](https://github.com/stoneMo/AVGN)
+* [Egocentric Audio-Visual Object Localization](https://arxiv.org/pdf/2303.13471.pdf) - C. Huang, Y. Tian, A. Kumar, C. Xu (CVPR 2023) [[code]](https://github.com/WikiChao/Ego-AV-Loc)
+* [Multi-modal Grouping Network for Weakly-Supervised Audio-Visual Video Parsing](https://openreview.net/pdf?id=zfo2LqFEVY) - Mo S., Tian Y. (NeurIPS 2022) [[code]](https://github.com/stoneMo/MGN)
 * [Exploring Cross-Video and Cross-Modality Signals for Weakly-Supervised Audio-Visual Video Parsing](https://proceedings.neurips.cc/paper/2021/file/5f93f983524def3dca464469d2cf9f3e-Paper.pdf) - Lin, Y. B., Tseng, H. Y., Lee, H. Y., Lin, Y. Y., & Yang, M. H. (NeurIPS 2021)
 * [Localizing Visual Sounds the Hard Way](https://arxiv.org/pdf/2104.02691.pdf) - Chen, H., Xie, W., Afouras, T., Nagrani, A., Vedaldi, A., & Zisserman, A. (CVPR 2021) [[code]](https://github.com/hche11/Localizing-Visual-Sounds-the-Hard-Way) [[project page]](https://www.robots.ox.ac.uk/~vgg/research/lvs/)
 * [Positive Sample Propagation along the Audio-Visual Event Line](https://arxiv.org/pdf/2104.00239.pdf) - Zhou, J., Zheng, L., Zhong, Y., Hao, S., & Wang, M. (CVPR 2021) [[code]](https://github.com/jasongief/PSP_CVPR_2021) 
@@ -38,6 +41,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 
 #### Audio-Visual Separation
 * [Learning Audio-Visual Dynamics Using Scene Graphs for Audio Source Separation](https://papers.nips.cc/paper_files/paper/2022/file/6c92839f0f9cddc96c694712a7143b09-Paper-Conference.pdf) - Chatterjee, M., Ahuja, N., & Cherian, A. (NeurIPS 2022)
+* [Active Audio-Visual Separation of Dynamic Sound Sources](https://arxiv.org/pdf/2202.00850.pdf) - Majumder, S. & Grauman, K. (ECCV 2022) [[code]](https://github.com/SAGNIKMJR/active-AV-dynamic-separation) [[project page]](http://vision.cs.utexas.edu/projects/active-av-dynamic-separation/)
 * [TriBERT: Full-body Human-centric Audio-visual Representation Learning for Visual Sound Separation](https://arxiv.org/pdf/2110.13412.pdf) - Rahman, T., Yang, M., & Sigal, L. (NeurIPS 2021) [[code]](https://github.com/ubc-vision/tribert)
 * [Move2Hear: Active Audio-Visual Source Separation](https://openaccess.thecvf.com/content/ICCV2021/papers/Majumder_Move2Hear_Active_Audio-Visual_Source_Separation_ICCV_2021_paper.pdf) - Majumder, S., Al-Halah, Z., & Grauman, K. (ICCV 2021) [[code]](https://github.com/SAGNIKMJR/move2hear-active-AV-separation) [[project page]](http://vision.cs.utexas.edu/projects/move2hear/)
 * [Visual Scene Graphs for Audio Source Separation](https://www.merl.com/publications/docs/TR2021-095.pdf) - Chatterjee, M., Le Roux, J., Ahuja, N., & Cherian, A. (ICCV 2021) [[code]](https://www.dropbox.com/s/cjfoklgozcamjns/avsgs.zip?dl=0) [[project page]](https://sites.google.com/site/metrosmiles/research/research-projects/avsgs)
@@ -168,6 +172,11 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [VoxCeleb: a large-scale speaker identification dataset](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/nagrani17.pdf) - Nagrani, A., Chung, J. S., & Zisserman, A. (INTERSPEECH 2017) [[project page]](http://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/)[[code]](https://github.com/a-nagrani/VGGVox) [[dataset]](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
 * [Out of time: automated lip sync in the wild](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16a/chung16a.pdf) - J.S. Chung & A. Zisserman (ACCVW 2016)
 
+#### Audio-Visual Learning of Scene Acoustics
+* [Few-Shot Audio-Visual Learning of Environment Acoustics](https://openreview.net/pdf?id=PIXGY1WgU-S) - Majumder, S., Chen, C.\*, Al-Halah, Z.\*, & Grauman, K. (NeurIPS 2022) [[code]](https://github.com/SAGNIKMJR/few-shot-rir) [[project page]](http://vision.cs.utexas.edu/projects/fs_rir/)
+* [INRAS: Implicit Neural Representations of Audio Scenes](https://openreview.net/pdf?id=7KBzV5IL7W) - Su, K.\*, Chen, M.\*, Shilzerman, E. (NeurIPS 2022) <!--[[code]]() [[project page]]()-->
+* [Learning Neural Acoustic Fields](https://openreview.net/pdf?id=lkQ7meEa-qv) - Luo, A., Du, Y., Tarr, M., Tenenbaum, J., Torralba, A., & Gan, C. (NeurIPS 2022) [[code]](https://github.com/aluo-x/Learning_Neural_Acoustic_Fields) [[project page]](https://www.andrew.cmu.edu/user/afluo/Neural_Acoustic_Fields/)
+
 #### Cross-modal Generation (Audio-Video / Video-Audio)
 * [How Does it Sound? Generation of Rhythmic Soundtracks for Human Movement Videos](https://proceedings.neurips.cc/paper/2021/file/f4e369c0a468d3aeeda0593ba90b5e55-Paper.pdf) - Su, K., Liu, X., & Shlizerman, E. (NeurIPS 2021)
 * [AI Choreographer: Music Conditioned 3D Dance Generation with AIST++](https://google.github.io/aichoreographer/) - Li, R., Yang, S., Ross, D. A., & Kanazawa, A. (ICCV 2021) [[code]](https://github.com/google-research/mint) [[project page]](https://google.github.io/aichoreographer/) [[dataset]](https://google.github.io/aistplusplus_dataset)
@@ -193,6 +202,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [GLAVNet: Global-Local Audio-Visual Cues for Fine-Grained Material Recognition]() - (CVPR 2021)
 * [There is More than Meets the Eye: Self-Supervised Multi-Object Detection and Tracking with Sound by Distilling Multimodal Knowledge]() - Valverde, F. R., Hurtado, J. V., & Valada, A. (CVPR 2021) [[code]](https://github.com/robot-learning-freiburg/MM-DistillNet) [[project page/dataset]](http://multimodal-distill.cs.uni-freiburg.de/)
 * [Can Audio-Visual Integration Strengthen Robustness Under Multimodal Attacks?](https://arxiv.org/pdf/2104.02000.pdf) - Tian, Y., & Xu, C. (CVPR 2021) [[code]](https://github.com/YapengTian/AV-Robustness-CVPR21)
+* [Push-Pull: Characterizing the Adversarial Robustness for Audio-Visual Active Speaker Detection?](https://arxiv.org/abs/2210.00753) - Xuanjun Chen,et al. (SLT 2022) [[Demos]](https://xjchen.tech/Push-Pull/index.html)
 * [Sight to sound: An end-to-end approach for visual piano transcription](http://www.robots.ox.ac.uk/~vgg/publications/2020/Koepke20/koepke20.pdf) - Koepke, A. S., Wiles, O., Moses, Y., & Zisserman, A. (ICASSP 2020) [[project page/dataset]](https://www.robots.ox.ac.uk/~vgg/research/sighttosound/)
 * [Solos: A Dataset for Audio-Visual Music Analysis](https://arxiv.org/pdf/2006.07931.pdf) - Montesinos, J. F., Slizovskaia, O., & Haro, G. (arXiv 2020) [[project page]](https://www.juanmontesinos.com/Solos/) [[dataset]](https://github.com/JuanFMontesinos/Solos)
 * [Cross-Task Transfer for Multimodal Aerial Scene Recognition](https://arxiv.org/pdf/2005.08449.pdf) - Hu, D., Li, X., Mou, L., Jin, P., Chen, D., Jing, L., ... & Dou, D. (arXiv 2020) [[code]](https://github.com/DTaoo/Multimodal-Aerial-Scene-Recognition) [[dataset]](https://zenodo.org/record/3828124)
