@@ -9,14 +9,20 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
  - [Audio-Visual Spatial/Depth](#Audio-Visual-Spatialdepth)
  - [Audio-Visual Navigation/RL](#Audio-Visual-NavigationRL)
  - [Audio-Visual Faces/Speech](#Audio-Visual-Facesspeech)
+ - [Audio-Visual Question Answering](#Audio-Visual-Question-Answering)
+ - [Audio-Visual Stylization/Generation](#audio-visual-stylizationgeneration)
  - [Cross-modal Generation (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio))
  - [Multi-modal Architectures](#Multi-modal-Architectures)
  - [Uncategorized Papers](#Uncategorized-Papers)
 
 #### Audio-Visual Localization
-* [A Closer Look at Weakly-Supervised Audio-Visual Source Localization](https://papers.nips.cc/paper_files/paper/2022/file/f3f2ff9579ba6deeb89caa2fe1f0b99c-Paper-Conference.pdf) - Mo, S., & Morgado, P. (NeurIPS 2022) [[code]](https://github.com/stoneMo/SLAVC) 
+* [A Proposal-Based Paradigm for Self-Supervised Sound Source Localization in Videos](https://openaccess.thecvf.com/content/CVPR2022/papers/Xuan_A_Proposal-Based_Paradigm_for_Self-Supervised_Sound_Source_Localization_in_Videos_CVPR_2022_paper.pdf) - Xuan, H., Wu, Z., Yang, J., Yan, Y., & Alameda-Pineda, X. (CVPR 2022)
+* [Mix and Localize: Localizing Sound Sources in Mixtures](https://openaccess.thecvf.com/content/CVPR2022/papers/Hu_Mix_and_Localize_Localizing_Sound_Sources_in_Mixtures_CVPR_2022_paper.pdf) - Hu, X., Chen, Z., & Owens, A. (CVPR 2022) [[project page]](https://hxixixh.github.io/mix-and-localize/) [[code]](https://github.com/hxixixh/mix-and-localize)
+* [Wnet: Audio-Guided Video Object Segmentation via Wavelet-Based Cross-Modal Denoising Networks](https://openaccess.thecvf.com/content/CVPR2022/papers/Pan_Wnet_Audio-Guided_Video_Object_Segmentation_via_Wavelet-Based_Cross-Modal_Denoising_Networks_CVPR_2022_paper.pdf) - Pan, W., Shi, H., Zhao, Z., Zhu, J., He, X., Pan, Z., ... & Tian, Q. (CVPR 2022) [[code]](https://github.com/asudahkzj/Wnet)
+* [Cross-Modal Background Suppression for Audio-Visual Event Localization](https://openaccess.thecvf.com/content/CVPR2022/papers/Xia_Cross-Modal_Background_Suppression_for_Audio-Visual_Event_Localization_CVPR_2022_paper.pdf) - Xia, Y., & Zhao, Z. (CVPR 2022) [[code]](https://github.com/marmot-xy/CMBS)
 * [Audio-Visual Grouping Network for Sound Localization from Mixtures](https://arxiv.org/pdf/2303.17056.pdf) - Mo S., Tian Y. (CVPR 2023) [[code]](https://github.com/stoneMo/AVGN)
 * [Egocentric Audio-Visual Object Localization](https://arxiv.org/pdf/2303.13471.pdf) - C. Huang, Y. Tian, A. Kumar, C. Xu (CVPR 2023) [[code]](https://github.com/WikiChao/Ego-AV-Loc)
+* [A Closer Look at Weakly-Supervised Audio-Visual Source Localization](https://papers.nips.cc/paper_files/paper/2022/file/f3f2ff9579ba6deeb89caa2fe1f0b99c-Paper-Conference.pdf) - Mo, S., & Morgado, P. (NeurIPS 2022) [[code]](https://github.com/stoneMo/SLAVC) 
 * [Multi-modal Grouping Network for Weakly-Supervised Audio-Visual Video Parsing](https://openreview.net/pdf?id=zfo2LqFEVY) - Mo S., Tian Y. (NeurIPS 2022) [[code]](https://github.com/stoneMo/MGN)
 * [Exploring Cross-Video and Cross-Modality Signals for Weakly-Supervised Audio-Visual Video Parsing](https://proceedings.neurips.cc/paper/2021/file/5f93f983524def3dca464469d2cf9f3e-Paper.pdf) - Lin, Y. B., Tseng, H. Y., Lee, H. Y., Lin, Y. Y., & Yang, M. H. (NeurIPS 2021)
 * [Localizing Visual Sounds the Hard Way](https://arxiv.org/pdf/2104.02691.pdf) - Chen, H., Xie, W., Afouras, T., Nagrani, A., Vedaldi, A., & Zisserman, A. (CVPR 2021) [[code]](https://github.com/hche11/Localizing-Visual-Sounds-the-Hard-Way) [[project page]](https://www.robots.ox.ac.uk/~vgg/research/lvs/)
@@ -59,6 +65,11 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [The Sound of Pixels](https://arxiv.org/pdf/1804.03160.pdf) - Zhao, H., Gan, C., Rouditchenko, A., Vondrick, C., McDermott, J., & Torralba, A. (ECCV 2018) [[project page]](http://sound-of-pixels.csail.mit.edu/) [[code]](https://github.com/hangzhaomit/Sound-of-Pixels) [[dataset]](https://github.com/roudimit/MUSIC_dataset)
 
 #### Audio-Visual Representation/Classification
+* [MERLOT Reserve: Neural Script Knowledge Through Vision and Language and Sound](https://openaccess.thecvf.com/content/CVPR2022/papers/Zellers_MERLOT_Reserve_Neural_Script_Knowledge_Through_Vision_and_Language_and_CVPR_2022_paper.pdf) - Zellers, R., Lu, J., Lu, X., Yu, Y., Zhao, Y., Salehi, M., ... & Choi, Y. (CVPR 2022) [[project page]](https://rowanzellers.com/merlotreserve/) [[code]](https://github.com/rowanz/merlot_reserve)
+* [Weakly Paired Associative Learning for Sound and Image Representations via Bimodal Associative Memory](https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Weakly_Paired_Associative_Learning_for_Sound_and_Image_Representations_via_CVPR_2022_paper.pdf) - Lee, S., Kim, H. I., & Ro, Y. M. (CVPR 2022)
+* [Sound and Visual Representation Learning With Multiple Pretraining Tasks](https://openaccess.thecvf.com/content/CVPR2022/papers/Vasudevan_Sound_and_Visual_Representation_Learning_With_Multiple_Pretraining_Tasks_CVPR_2022_paper.pdf) - Vasudevan, A. B., Dai, D., & Van Gool, L. (CVPR 2022)
+* [Self-Supervised Object Detection From Audio-Visual Correspondence](https://openaccess.thecvf.com/content/CVPR2022/html/Afouras_Self-Supervised_Object_Detection_From_Audio-Visual_Correspondence_CVPR_2022_paper.html) - Afouras, T., Asano, Y. M., Fagan, F., Vedaldi, A., & Metze, F. (CVPR 2022)
+* [Audio-Visual Generalised Zero-Shot Learning With Cross-Modal Attention and Language](https://openaccess.thecvf.com/content/CVPR2022/papers/Mercea_Audio-Visual_Generalised_Zero-Shot_Learning_With_Cross-Modal_Attention_and_Language_CVPR_2022_paper.pdf) [[project page]](https://www.eml-unitue.de/publication/audio-visual-zsl) [[code]](https://github.com/ExplainableML/AVCA-GZSL)
 * [Multi-modal Grouping Network for Weakly-Supervised Audio-Visual Video Parsing](https://papers.nips.cc/paper_files/paper/2022/file/e095c0a3717629aa5497601985bfcf0e-Paper-Conference.pdf) - Mo, S., & Tian, Y. (NeurIPS 2022) [[code]](https://github.com/stoneMo/MGN)
 * [Self-Supervised Object Detection From Audio-Visual Correspondence](https://openaccess.thecvf.com/content/CVPR2022/papers/Afouras_Self-Supervised_Object_Detection_From_Audio-Visual_Correspondence_CVPR_2022_paper.pdf) - Afouras, T., Asano, Y. M., Fagan, F., Vedaldi, A., & Metze, F. (CVPR 2022)
 * [Audio-visual Generalised Zero-shot Learning with Cross-modal Attention and Language](https://openaccess.thecvf.com/content/CVPR2022/papers/Mercea_Audio-Visual_Generalised_Zero-Shot_Learning_With_Cross-Modal_Attention_and_Language_CVPR_2022_paper.pdf) - [[code]](https://github.com/ExplainableML/AVCA-GZSL/) 
@@ -96,6 +107,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Cross-Modal Embeddings for Video and Audio Retrieval](https://arxiv.org/pdf/1801.02200.pdf) -Surís, D., Duarte, A., Salvador, A., Torres, J., & Giró-i-Nieto, X. (ECCVW, 2018)
 
 #### Audio-Visual Action Recognition
+* [Audio-Adaptive Activity Recognition Across Video Domains](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Audio-Adaptive_Activity_Recognition_Across_Video_Domains_CVPR_2022_paper.pdf) - Zhang, Y., Doughty, H., Shao, L., & Snoek, C. G. (CVPR 2022) [[project page]](https://xiaobai1217.github.io/DomainAdaptation/) [[code]](https://github.com/xiaobai1217/DomainAdaptation)
 * [Cross-Attentional Audio-Visual Fusion for Weakly-Supervised Action Localization](https://openreview.net/pdf?id=hWr3e3r-oH5) - Lee, J., Jain, M., Park, H., & Yun, S. (ICLR 2021)
 * [Speech2Action: Cross-modal Supervision for Action Recognition](http://www.robots.ox.ac.uk/~vgg/publications/2020/Nagrani20/nagrani20.pdf) - Nagrani, A., Sun, C., Ross, D., Sukthankar, R., Schmid, C., & Zisserman, A. (CVPR 2020) [project page, dataset](https://www.robots.ox.ac.uk/~vgg/research/speech2action/)
 * [Listen to Look: Action Recognition by Previewing Audio](https://arxiv.org/pdf/1912.04487.pdf) -  Ruohan Gao, Tae-Hyun Oh, Kristen Grauman, Lorenzo Torresani (CVPR 2020) [[project page]](http://vision.cs.utexas.edu/projects/listen_to_look/)
@@ -137,6 +149,10 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Look, listen, and act: Towards audio-visual embodied navigation](https://arxiv.org/pdf/1912.11684.pdf) - Gan, C., Zhang, Y., Wu, J., Gong, B., & Tenenbaum, J. B. (ICRA 2020) [[project page/dataset]](http://avn.csail.mit.edu/)
 
 #### Audio-Visual Faces/Speech
+* [PoseKernelLifter: Metric Lifting of 3D Human Pose Using Sound](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_PoseKernelLifter_Metric_Lifting_of_3D_Human_Pose_Using_Sound_CVPR_2022_paper.pdf) - Yang, Z., Fan, X., Isler, V., & Park, H. S. (CVPR 2022)
+* [Audio-Driven Neural Gesture Reenactment With Video Motion Graphs](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_Audio-Driven_Neural_Gesture_Reenactment_With_Video_Motion_Graphs_CVPR_2022_paper.pdf) - Zhou, Y., Yang, J., Li, D., Saito, J., Aneja, D., & Kalogerakis, E. (CVPR 2022) [[code]](https://github.com/yzhou359/vid-reenact)
+* [Expressive Talking Head Generation With Granular Audio-Visual Control](https://openaccess.thecvf.com/content/CVPR2022/papers/Liang_Expressive_Talking_Head_Generation_With_Granular_Audio-Visual_Control_CVPR_2022_paper.pdf) - Liang, B., Pan, Y., Guo, Z., Zhou, H., Hong, Z., Han, X., ... & Wang, J. (CVPR 2022)
+* [Egocentric Deep Multi-Channel Audio-Visual Active Speaker Localization](https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_Egocentric_Deep_Multi-Channel_Audio-Visual_Active_Speaker_Localization_CVPR_2022_paper.pdf) - Jiang, H., Murdock, C., & Ithapu, V. K. (CVPR 2022)
 * [Audio-Driven Co-Speech Gesture Video Generation](https://papers.nips.cc/paper_files/paper/2022/file/8667f264f88c7938a73a53ab01eb1327-Paper-Conference.pdf) - Liu, X., Wu, Q., Zhou, H., Du, Y., Wu, W., Lin, D., & Liu, Z. (NeurIPS 2022) [[project page]](https://alvinliu0.github.io/projects/ANGIE) [[code]](https://github.com/alvinliu0/ANGIE)
 * [Audio-Visual Speech Codecs: Rethinking Audio-Visual Speech Enhancement by Re-Synthesis](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_Audio-Visual_Speech_Codecs_Rethinking_Audio-Visual_Speech_Enhancement_by_Re-Synthesis_CVPR_2022_paper.pdf) - Yang, K., Marković, D., Krenn, S., Agrawal, V., & Richard, A. (CVPR 2022) [[video]](https://www.youtube.com/watch?v=3lQ-ImYnLhc)
 * [Audio2Gestures: Generating Diverse Gestures From Speech Audio With Conditional Variational Autoencoders](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_Audio2Gestures_Generating_Diverse_Gestures_From_Speech_Audio_With_Conditional_Variational_ICCV_2021_paper.pdf) - Li, J., Kang, D., Pei, W., Zhe, X., Zhang, Y., He, Z., & Bao, L. (ICCV 2021) [[code]](https://github.com/JingLi513/Audio2Gestures) [[project page]](https://jingli513.github.io/audio2gestures/)
@@ -173,9 +189,11 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Out of time: automated lip sync in the wild](https://www.robots.ox.ac.uk/~vgg/publications/2016/Chung16a/chung16a.pdf) - J.S. Chung & A. Zisserman (ACCVW 2016)
 
 #### Audio-Visual Learning of Scene Acoustics
-* [Few-Shot Audio-Visual Learning of Environment Acoustics](https://openreview.net/pdf?id=PIXGY1WgU-S) - Majumder, S., Chen, C.\*, Al-Halah, Z.\*, & Grauman, K. (NeurIPS 2022) [[code]](https://github.com/SAGNIKMJR/few-shot-rir) [[project page]](http://vision.cs.utexas.edu/projects/fs_rir/)
 * [INRAS: Implicit Neural Representations of Audio Scenes](https://openreview.net/pdf?id=7KBzV5IL7W) - Su, K.\*, Chen, M.\*, Shilzerman, E. (NeurIPS 2022) <!--[[code]]() [[project page]]()-->
 * [Learning Neural Acoustic Fields](https://openreview.net/pdf?id=lkQ7meEa-qv) - Luo, A., Du, Y., Tarr, M., Tenenbaum, J., Torralba, A., & Gan, C. (NeurIPS 2022) [[code]](https://github.com/aluo-x/Learning_Neural_Acoustic_Fields) [[project page]](https://www.andrew.cmu.edu/user/afluo/Neural_Acoustic_Fields/)
+
+#### Audio-Visual Question Answering
+* [Learning To Answer Questions in Dynamic Audio-Visual Scenarios](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Learning_To_Answer_Questions_in_Dynamic_Audio-Visual_Scenarios_CVPR_2022_paper.pdf) - Li, G., Wei, Y., Tian, Y., Xu, C., Wen, J. R., & Hu, D. (CVPR 2022) [[project page]](https://gewu-lab.github.io/MUSIC-AVQA/) [[code]](https://github.com/GeWu-Lab/MUSIC-AVQA)
 
 #### Cross-modal Generation (Audio-Video / Video-Audio)
 * [How Does it Sound? Generation of Rhythmic Soundtracks for Human Movement Videos](https://proceedings.neurips.cc/paper/2021/file/f4e369c0a468d3aeeda0593ba90b5e55-Paper.pdf) - Su, K., Liu, X., & Shlizerman, E. (NeurIPS 2021)
@@ -192,11 +210,15 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Image generation associated with music data](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w49/Qiu_Image_Generation_Associated_CVPR_2018_paper.pdf) - Qiu, Y., & Kataoka, H. (CVPRW 2018)
 * [CMCGAN: A uniform framework for cross-modal visual-audio mutual generation](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17153/16274) - Hao, W., Zhang, Z., & Guan, H. (AAAI 2018) 
 
+#### Audio-Visual Stylization/Generation
+* [Sound-Guided Semantic Image Manipulation](https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Sound-Guided_Semantic_Image_Manipulation_CVPR_2022_paper.pdf) - Lee, S. H., Roh, W., Byeon, W., Yoon, S. H., Kim, C., Kim, J., & Kim, S. (CVPR 2022) [[project page]](https://kuai-lab.github.io/cvpr2022sound/) [[code]](https://github.com/kuai-lab/sound-guided-semantic-image-manipulation)
+
 #### Multi-modal Architectures
 * [What Makes Training Multi-Modal Networks Hard?](https://arxiv.org/pdf/1905.12681.pdf) - Wang, W., Tran, D., & Feiszli, M. (arXiv 2019) 
 * [MFAS: Multimodal Fusion Architecture Search](http://openaccess.thecvf.com/content_CVPR_2019/papers/Perez-Rua_MFAS_Multimodal_Fusion_Architecture_Search_CVPR_2019_paper.pdf) - Pérez-Rúa, J. M., Vielzeuf, V., Pateux, S., Baccouche, M., & Jurie, F. (CVPR 2019)
 
 #### Uncategorized Papers
+* [MAD: A Scalable Dataset for Language Grounding in Videos From Movie Audio Descriptions](https://openaccess.thecvf.com/content/CVPR2022/papers/Soldan_MAD_A_Scalable_Dataset_for_Language_Grounding_in_Videos_From_CVPR_2022_paper.pdf) - Soldan, M., Pardo, A., Alcázar, J. L., Caba, F., Zhao, C., Giancola, S., & Ghanem, B. (CVPR 2022) [[code]](https://github.com/Soldelli/MAD)
 * [Finding Fallen Objects via Asynchronous Audio-Visual Integration](https://openaccess.thecvf.com/content/CVPR2022/papers/Gan_Finding_Fallen_Objects_via_Asynchronous_Audio-Visual_Integration_CVPR_2022_paper.pdf) - Gan, C., Gu, Y., Zhou, S., Schwartz, J., Alter, S., Traer, J., ... & Torralba, A. (CVPR 2022) [[code]](https://github.com/chuangg/find_fallen_objects)
 * [Audio-Visual Floorplan Reconstruction]() - S. Purushwalkam, S. V. A. Gari, V. K. Ithapu, C. Schissler, P. Robinson, A. Gupta, K. Grauman (ICCV 2021) [[code]](https://github.com/senthilps8/avmap) [[project page]](https://www.cs.cmu.edu/~spurushw/publication/avmap/)
 * [GLAVNet: Global-Local Audio-Visual Cues for Fine-Grained Material Recognition]() - (CVPR 2021)
