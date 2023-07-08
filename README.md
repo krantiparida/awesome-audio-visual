@@ -141,6 +141,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Joint Audio-Visual Deepfake Detection](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_Joint_Audio-Visual_Deepfake_Detection_ICCV_2021_paper.pdf) - Zhou, Y., & Lim, S. N. (ICCV 2021)
 
 #### Audio-Visual Navigation/RL
+* [Sound Adversarial Audio-Visual Navigation](https://openreview.net/pdf?id=NkZq4OEYN-) - Yu, Y., Huang, W., Sun, F., Chen, C., Wang, Y., & Liu, X. (ICLR 2022) [[project page]](https://yyf17.github.io/SAAVN/) [[code]](https://github.com/yyf17/SAAVN/tree/main)
 * [AVLEN: Audio-Visual-Language Embodied Navigation in 3D Environments](https://papers.nips.cc/paper_files/paper/2022/hash/28f699175783a2c828ae74d53dd3da20-Abstract-Conference.html) - Paul, S., Roy-Chowdhury, A., & Cherian, A. (NeurIPS 2022)
 * [Semantic Audio-Visual Navigation](https://arxiv.org/pdf/2012.11583.pdf) - Chen, C., Al-Halah, Z., & Grauman, K. (CVPR 2021) [[project page]](http://vision.cs.utexas.edu/projects/semantic-audio-visual-navigation/) [[code]](https://github.com/facebookresearch/sound-spaces/tree/master/ss_baselines/savi)
 * [Learning to set waypoints for audio-visual navigation](https://arxiv.org/pdf/2008.09622.pdf) - Chen, C., Majumder, S., Al-Halah, Z., Gao, R., Ramakrishnan, S. K., & Grauman, K. (ICLR 2021) [[project page]](http://vision.cs.utexas.edu/projects/audio_visual_waypoints/) [[code]](https://github.com/facebookresearch/sound-spaces/tree/master/ss_baselines/av_wan)
@@ -149,6 +150,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Look, listen, and act: Towards audio-visual embodied navigation](https://arxiv.org/pdf/1912.11684.pdf) - Gan, C., Zhang, Y., Wu, J., Gong, B., & Tenenbaum, J. B. (ICRA 2020) [[project page/dataset]](http://avn.csail.mit.edu/)
 
 #### Audio-Visual Faces/Speech
+* [Learning Audio-Visual Speech Representation by Masked Multimodal Cluster Prediction](https://openreview.net/pdf?id=Z1Qlm11uOM) - Shi, B., Hsu, W. N., Lakhotia, K., & Mohamed, A. (ICLR 2022) [[code]](https://github.com/facebookresearch/av_hubert)
 * [PoseKernelLifter: Metric Lifting of 3D Human Pose Using Sound](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_PoseKernelLifter_Metric_Lifting_of_3D_Human_Pose_Using_Sound_CVPR_2022_paper.pdf) - Yang, Z., Fan, X., Isler, V., & Park, H. S. (CVPR 2022)
 * [Audio-Driven Neural Gesture Reenactment With Video Motion Graphs](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_Audio-Driven_Neural_Gesture_Reenactment_With_Video_Motion_Graphs_CVPR_2022_paper.pdf) - Zhou, Y., Yang, J., Li, D., Saito, J., Aneja, D., & Kalogerakis, E. (CVPR 2022) [[code]](https://github.com/yzhou359/vid-reenact)
 * [Expressive Talking Head Generation With Granular Audio-Visual Control](https://openaccess.thecvf.com/content/CVPR2022/papers/Liang_Expressive_Talking_Head_Generation_With_Granular_Audio-Visual_Control_CVPR_2022_paper.pdf) - Liang, B., Pan, Y., Guo, Z., Zhou, H., Hong, Z., Han, X., ... & Wang, J. (CVPR 2022)
