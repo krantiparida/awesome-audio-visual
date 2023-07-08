@@ -4,7 +4,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 ## Contents
  - [Audio-Visual Localization](#Audio-Visual-Localization)
  - [Audio-Visual Separation](#Audio-Visual-Separation)
- - [Audio-Visual Representation/Classification](#Audio-Visual-Representation)
+ - [Audio-Visual Representation/Classification/Retrieval](#Audio-Visual-Representation)
  - [Audio-Visual Action Recognition](#Audio-Visual-Action-Recognition)
  - [Audio-Visual Spatial/Depth](#Audio-Visual-Spatialdepth)
  - [Audio-Visual Navigation/RL](#Audio-Visual-NavigationRL)
@@ -16,6 +16,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
  - [Uncategorized Papers](#Uncategorized-Papers)
 
 #### Audio-Visual Localization
+* [Dual Perspective Network for Audio Visual Event Localization](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136940676.pdf) - Rao, V., Khalil, M. I., Li, H., Dai, P., & Lu, J. (ECCV 2022)
 * [A Proposal-Based Paradigm for Self-Supervised Sound Source Localization in Videos](https://openaccess.thecvf.com/content/CVPR2022/papers/Xuan_A_Proposal-Based_Paradigm_for_Self-Supervised_Sound_Source_Localization_in_Videos_CVPR_2022_paper.pdf) - Xuan, H., Wu, Z., Yang, J., Yan, Y., & Alameda-Pineda, X. (CVPR 2022)
 * [Mix and Localize: Localizing Sound Sources in Mixtures](https://openaccess.thecvf.com/content/CVPR2022/papers/Hu_Mix_and_Localize_Localizing_Sound_Sources_in_Mixtures_CVPR_2022_paper.pdf) - Hu, X., Chen, Z., & Owens, A. (CVPR 2022) [[project page]](https://hxixixh.github.io/mix-and-localize/) [[code]](https://github.com/hxixixh/mix-and-localize)
 * [Wnet: Audio-Guided Video Object Segmentation via Wavelet-Based Cross-Modal Denoising Networks](https://openaccess.thecvf.com/content/CVPR2022/papers/Pan_Wnet_Audio-Guided_Video_Object_Segmentation_via_Wavelet-Based_Cross-Modal_Denoising_Networks_CVPR_2022_paper.pdf) - Pan, W., Shi, H., Zhao, Z., Zhu, J., He, X., Pan, Z., ... & Tian, Q. (CVPR 2022) [[code]](https://github.com/asudahkzj/Wnet)
@@ -46,8 +47,11 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Audio-visual object localization and separation using low-rank and sparsity](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7952687) - Pu, J., Panagakis, Y., Petridis, S., & Pantic, M. (ICASSP 2017)
 
 #### Audio-Visual Separation
+* [Filter-Recovery Network for Multi-Speaker Audio-Visual Speech Separation](https://openreview.net/pdf?id=fiB2RjmgwQ6) - Cheng, H., Liu, Z., Wu, W., & Wang, L. (ICLR 2023)
+* [AudioScopeV2: Audio-Visual Attention Architectures for Calibrated Open-Domain On-Screen Sound Separation](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970360.pdf) - Tzinis, E., Wisdom, S., Remez, T., & Hershey, J. R. (ECCV 2022)
+* [VoViT: Low Latency Graph-based Audio-Visual Voice Separation Transformer](http://arxiv.org/abs/2203.04099) - Montesinos, J. F., Kadandale, V. S., & Haro, G. (ECCV 2022) [[project page]](https://ipcv.github.io/VoViT/) [[code]](https://github.com/JuanFMontesinos/VoViT)
 * [Learning Audio-Visual Dynamics Using Scene Graphs for Audio Source Separation](https://papers.nips.cc/paper_files/paper/2022/file/6c92839f0f9cddc96c694712a7143b09-Paper-Conference.pdf) - Chatterjee, M., Ahuja, N., & Cherian, A. (NeurIPS 2022)
-* [Active Audio-Visual Separation of Dynamic Sound Sources](https://arxiv.org/pdf/2202.00850.pdf) - Majumder, S. & Grauman, K. (ECCV 2022) [[code]](https://github.com/SAGNIKMJR/active-AV-dynamic-separation) [[project page]](http://vision.cs.utexas.edu/projects/active-av-dynamic-separation/)
+* [Active Audio-Visual Separation of Dynamic Sound Sources](https://arxiv.org/pdf/2202.00850.pdf) - Majumder, S. & Grauman, K. (ECCV 2022) [[code]](https://github.com/SAGNIKMJR/active-AV-dynamic-separation) [[project page]](http://vision.cs.utexas.edu/projects/active-av-dynamic-separation/) [[code]](https://github.com/SAGNIKMJR/active-av-dynamic-separation)
 * [TriBERT: Full-body Human-centric Audio-visual Representation Learning for Visual Sound Separation](https://arxiv.org/pdf/2110.13412.pdf) - Rahman, T., Yang, M., & Sigal, L. (NeurIPS 2021) [[code]](https://github.com/ubc-vision/tribert)
 * [Move2Hear: Active Audio-Visual Source Separation](https://openaccess.thecvf.com/content/ICCV2021/papers/Majumder_Move2Hear_Active_Audio-Visual_Source_Separation_ICCV_2021_paper.pdf) - Majumder, S., Al-Halah, Z., & Grauman, K. (ICCV 2021) [[code]](https://github.com/SAGNIKMJR/move2hear-active-AV-separation) [[project page]](http://vision.cs.utexas.edu/projects/move2hear/)
 * [Visual Scene Graphs for Audio Source Separation](https://www.merl.com/publications/docs/TR2021-095.pdf) - Chatterjee, M., Le Roux, J., Ahuja, N., & Cherian, A. (ICCV 2021) [[code]](https://www.dropbox.com/s/cjfoklgozcamjns/avsgs.zip?dl=0) [[project page]](https://sites.google.com/site/metrosmiles/research/research-projects/avsgs)
@@ -64,7 +68,12 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Learning to Separate Object Sounds by Watching Unlabeled Video](http://vision.cs.utexas.edu/projects/separating_object_sounds/sound-sep-eccv2018.pdf) - Gao, R., Feris, R., & Grauman, K. (ECCV 2018 (Oral)) [[project page]](http://vision.cs.utexas.edu/projects/separating_object_sounds/) [[code]](https://github.com/rhgao/Deep-MIML-Network) [[dataset]](http://vision.cs.utexas.edu/projects/separating_object_sounds/#data)
 * [The Sound of Pixels](https://arxiv.org/pdf/1804.03160.pdf) - Zhao, H., Gan, C., Rouditchenko, A., Vondrick, C., McDermott, J., & Torralba, A. (ECCV 2018) [[project page]](http://sound-of-pixels.csail.mit.edu/) [[code]](https://github.com/hangzhaomit/Sound-of-Pixels) [[dataset]](https://github.com/roudimit/MUSIC_dataset)
 
-#### Audio-Visual Representation/Classification
+#### Audio-Visual Representation/Classification/Retrieval
+* [Contrastive Audio-Visual Masked Autoencoder](https://openreview.net/pdf?id=QPtMRyk5rb) - Gong, Y., Rouditchenko, A., Liu, A. H., Harwath, D., Karlinsky, L., Kuehne, H., & Glass, J. R. (ICLR 2023) [[code]](https://github.com/yuangongnd/cav-mae)
+* [Audio-Visual Segmentation](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970378.pdf) - Zhou, J., Wang, J., Zhang, J., Sun, W., Zhang, J., Birchfield, S., ... & Zhong, Y. (ECCV 2022) [[code]](https://github.com/OpenNLPLab/AVSBench)
+* [Temporal and cross-modal attention for audio-visual zero-shot learning](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136800474.pdf) - Mercea, O. B., Hummel, T., Koepke, A. S., & Akata, Z. (ECCV 2022) [[code]](https://github.com/ExplainableML/TCAF-GZSL)
+* [Audio-Visual Mismatch-Aware Video Retrieval via Association and Adjustment](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136740484.pdf) - Lee, S., Park, S., & Ro, Y. M. (ECCV 2022)
+* [Joint-Modal Label Denoising for Weakly-Supervised Audio-Visual Video Parsing](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136940424.pdf) - Cheng, H., Liu, Z., Zhou, H., Qian, C., Wu, W., & Wang, L. (ECCV 2022) [[code]](https://github.com/MCG-NJU/JoMoLD)
 * [MERLOT Reserve: Neural Script Knowledge Through Vision and Language and Sound](https://openaccess.thecvf.com/content/CVPR2022/papers/Zellers_MERLOT_Reserve_Neural_Script_Knowledge_Through_Vision_and_Language_and_CVPR_2022_paper.pdf) - Zellers, R., Lu, J., Lu, X., Yu, Y., Zhao, Y., Salehi, M., ... & Choi, Y. (CVPR 2022) [[project page]](https://rowanzellers.com/merlotreserve/) [[code]](https://github.com/rowanz/merlot_reserve)
 * [Weakly Paired Associative Learning for Sound and Image Representations via Bimodal Associative Memory](https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Weakly_Paired_Associative_Learning_for_Sound_and_Image_Representations_via_CVPR_2022_paper.pdf) - Lee, S., Kim, H. I., & Ro, Y. M. (CVPR 2022)
 * [Sound and Visual Representation Learning With Multiple Pretraining Tasks](https://openaccess.thecvf.com/content/CVPR2022/papers/Vasudevan_Sound_and_Visual_Representation_Learning_With_Multiple_Pretraining_Tasks_CVPR_2022_paper.pdf) - Vasudevan, A. B., Dai, D., & Van Gool, L. (CVPR 2022)
@@ -117,6 +126,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [How Much Does Audio Matter to Recognize Egocentric Object Interactions?](https://arxiv.org/pdf/1906.00634.pdf) - Cartas, A., Luque, J., Radeva, P., Segura, C., & Dimiccoli, M. (EPIC CVPRW 2019)
 
 #### Audio-Visual Spatial/Depth
+* [Camera Pose Estimation and Localization with Active Audio Sensing](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970266.pdf) - Yang, K., Firman, M., Brachmann, E., & Godard, C. (ECCV 2022)
 * [Few-Shot Audio-Visual Learning of Environment Acoustics](https://proceedings.neurips.cc/paper_files/paper/2022/file/113ae3a9762ca2168f860a8501d6ae25-Paper-Conference.pdf) - Majumder, S., Chen, C., Al-Halah, Z., & Grauman, K. NeurIPS (2022) [[code]](https://github.com/SAGNIKMJR/few-shot-rir)
 * [Localize to Binauralize: Audio Spatialization From Visual Sound Source Localization](https://openaccess.thecvf.com/content/ICCV2021/papers/Rachavarapu_Localize_to_Binauralize_Audio_Spatialization_From_Visual_Sound_Source_Localization_ICCV_2021_paper.pdf) - Rachavarapu, K. K., Sundaresha, V., & Rajagopalan, A. N. (ICCV 2021)
 * [Visually Informed Binaural Audio Generation without Binaural Audios](https://arxiv.org/pdf/2104.06162.pdf) - Xu, X., Zhou, H., Liu, Z., Dai, B., Wang, X., & Lin, D. (CVPR 2021) [[code]](https://github.com/SheldonTsui/PseudoBinaural_CVPR2021)
@@ -150,6 +160,10 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Look, listen, and act: Towards audio-visual embodied navigation](https://arxiv.org/pdf/1912.11684.pdf) - Gan, C., Zhang, Y., Wu, J., Gong, B., & Tenenbaum, J. B. (ICRA 2020) [[project page/dataset]](http://avn.csail.mit.edu/)
 
 #### Audio-Visual Faces/Speech
+* [GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis](https://openreview.net/pdf?id=YfwMIDhPccD) - Ye, Z., Jiang, Z., Ren, Y., Liu, J., He, J., & Zhao, Z. (ICLR 2023) [[code]](https://geneface.github.io/)
+* [Jointly Learning Visual and Auditory Speech Representations from Raw Data](https://openreview.net/pdf?id=BPwIgvf5iQ) - Haliassos, A., Ma, P., Mira, R., Petridis, S., & Pantic, M. (ICLR 2023) [[code]](https://github.com/ahaliassos/raven)
+* [Audio-Driven Stylized Gesture Generation with Flow-Based Model](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136650701.pdf) - Ye, S., Wen, Y. H., Sun, Y., He, Y., Zhang, Z., Wang, Y., ... & Liu, Y. J. (ECCV 2022) [[code]](https://github.com/yesheng-THU/GFGE)
+* [Semantic-Aware Implicit Neural Audio-Driven Video Portrait Generation](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970105.pdf) - Liu, X., Xu, Y., Wu, Q., Zhou, H., Wu, W., & Zhou, B. (ECCV 2022) [[project page]](https://alvinliu0.github.io/projects/SSP-NeRF) [[code]](https://github.com/alvinliu0/SSP-NeRF)
 * [Learning Audio-Visual Speech Representation by Masked Multimodal Cluster Prediction](https://openreview.net/pdf?id=Z1Qlm11uOM) - Shi, B., Hsu, W. N., Lakhotia, K., & Mohamed, A. (ICLR 2022) [[code]](https://github.com/facebookresearch/av_hubert)
 * [PoseKernelLifter: Metric Lifting of 3D Human Pose Using Sound](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_PoseKernelLifter_Metric_Lifting_of_3D_Human_Pose_Using_Sound_CVPR_2022_paper.pdf) - Yang, Z., Fan, X., Isler, V., & Park, H. S. (CVPR 2022)
 * [Audio-Driven Neural Gesture Reenactment With Video Motion Graphs](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhou_Audio-Driven_Neural_Gesture_Reenactment_With_Video_Motion_Graphs_CVPR_2022_paper.pdf) - Zhou, Y., Yang, J., Li, D., Saito, J., Aneja, D., & Kalogerakis, E. (CVPR 2022) [[code]](https://github.com/yzhou359/vid-reenact)
@@ -195,6 +209,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Learning Neural Acoustic Fields](https://openreview.net/pdf?id=lkQ7meEa-qv) - Luo, A., Du, Y., Tarr, M., Tenenbaum, J., Torralba, A., & Gan, C. (NeurIPS 2022) [[code]](https://github.com/aluo-x/Learning_Neural_Acoustic_Fields) [[project page]](https://www.andrew.cmu.edu/user/afluo/Neural_Acoustic_Fields/)
 
 #### Audio-Visual Question Answering
+* [PACS: A Dataset for Physical Audiovisual CommonSense Reasoning](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136970286.pdf) - Yu, S., Wu, P., Liang, P. P., Salakhutdinov, R., & Morency, L. P. (ECCV 2022) [[code]](https://github.com/samuelyu2002/PACS)
 * [Learning To Answer Questions in Dynamic Audio-Visual Scenarios](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Learning_To_Answer_Questions_in_Dynamic_Audio-Visual_Scenarios_CVPR_2022_paper.pdf) - Li, G., Wei, Y., Tian, Y., Xu, C., Wen, J. R., & Hu, D. (CVPR 2022) [[project page]](https://gewu-lab.github.io/MUSIC-AVQA/) [[code]](https://github.com/GeWu-Lab/MUSIC-AVQA)
 
 #### Cross-modal Generation (Audio-Video / Video-Audio)
@@ -213,6 +228,8 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [CMCGAN: A uniform framework for cross-modal visual-audio mutual generation](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17153/16274) - Hao, W., Zhang, Z., & Guan, H. (AAAI 2018) 
 
 #### Audio-Visual Stylization/Generation
+* [MUGEN: A Playground for Video-Audio-Text Multimodal Understanding and GENeration](https://arxiv.org/pdf/2204.08058.pdf) - Hayes, T., Zhang, S., Yin, X., Pang, G., Sheng, S., Yang, H., ... & Parikh, D. (ECCV 2022) [[project page]](https://mugen-org.github.io/) [[code]](https://github.com/mugen-org/MUGEN_baseline)
+* [Learning visual styles from audio-visual associations](https://arxiv.org/pdf/2205.05072.pdf) - Li, T., Liu, Y., Owens, A., & Zhao, H. (ECCV 2022) [[project page]](https://tinglok.netlify.app/files/avstyle/) [[code]](https://github.com/Tinglok/avstyle)
 * [Sound-Guided Semantic Image Manipulation](https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Sound-Guided_Semantic_Image_Manipulation_CVPR_2022_paper.pdf) - Lee, S. H., Roh, W., Byeon, W., Yoon, S. H., Kim, C., Kim, J., & Kim, S. (CVPR 2022) [[project page]](https://kuai-lab.github.io/cvpr2022sound/) [[code]](https://github.com/kuai-lab/sound-guided-semantic-image-manipulation)
 
 #### Multi-modal Architectures
@@ -220,6 +237,8 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [MFAS: Multimodal Fusion Architecture Search](http://openaccess.thecvf.com/content_CVPR_2019/papers/Perez-Rua_MFAS_Multimodal_Fusion_Architecture_Search_CVPR_2019_paper.pdf) - Pérez-Rúa, J. M., Vielzeuf, V., Pateux, S., Baccouche, M., & Jurie, F. (CVPR 2019)
 
 #### Uncategorized Papers
+* [Exploring Fine-Grained Audiovisual Categorization with the SSW60 Dataset](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680262.pdf) - Van Horn, G., Qian, R., Wilber, K., Adam, H., Mac Aodha, O., & Belongie, S. (ECCV 2022) [[code]](https://github.com/visipedia/ssw60)
+* [Learning Audio-Video Modalities from Image Captions](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136740396.pdf) - Nagrani, A., Seo, P. H., Seybold, B., Hauth, A., Manen, S., Sun, C., & Schmid, C. (ECCV 2022) [[project page]](https://a-nagrani.github.io/videocc.html) [[dataset]](https://github.com/google-research-datasets/videoCC-data)
 * [MAD: A Scalable Dataset for Language Grounding in Videos From Movie Audio Descriptions](https://openaccess.thecvf.com/content/CVPR2022/papers/Soldan_MAD_A_Scalable_Dataset_for_Language_Grounding_in_Videos_From_CVPR_2022_paper.pdf) - Soldan, M., Pardo, A., Alcázar, J. L., Caba, F., Zhao, C., Giancola, S., & Ghanem, B. (CVPR 2022) [[code]](https://github.com/Soldelli/MAD)
 * [Finding Fallen Objects via Asynchronous Audio-Visual Integration](https://openaccess.thecvf.com/content/CVPR2022/papers/Gan_Finding_Fallen_Objects_via_Asynchronous_Audio-Visual_Integration_CVPR_2022_paper.pdf) - Gan, C., Gu, Y., Zhou, S., Schwartz, J., Alter, S., Traer, J., ... & Torralba, A. (CVPR 2022) [[code]](https://github.com/chuangg/find_fallen_objects)
 * [Audio-Visual Floorplan Reconstruction]() - S. Purushwalkam, S. V. A. Gari, V. K. Ithapu, C. Schissler, P. Robinson, A. Gupta, K. Grauman (ICCV 2021) [[code]](https://github.com/senthilps8/avmap) [[project page]](https://www.cs.cmu.edu/~spurushw/publication/avmap/)
@@ -261,6 +280,11 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [MUSIC-Synthetic dataset](https://zenodo.org/record/4079386#.X4PFodozbb2)- Category-balanced multi-source videos by artificially synthesizing solo videos from the [MUSIC](https://github.com/roudimit/MUSIC_dataset) dataset, to facilitate the learning and evaluation of multiple-soundings-sources localization in the cocktail-party scenario.
 * [ACAV100M](https://acav100m.github.io/) - 140 million full-length videos (total duration 1,030 years) and produce a dataset of 100 million 10-second clips (31 years) with high audio-visual correspondence.
 * [AIST++](https://google.github.io/aichoreographer/) - A large-scale 3D human dance motion dataset, which contains a wide variety of 3D motion paired with music It is built upon the AIST Dance Database, which is an uncalibrated multi-view collection of dance videos.
+* [VideoCC](https://github.com/google-research-datasets/videoCC-data) - A dataset containing (video-URL, caption) pairs for training video-text machine learning models. It is created using an automatic pipeline starting from the Conceptual Captions Image-Captioning Dataset.
+* [ssw60](https://github.com/visipedia/ssw60) - A dataset for research on adiovisual fine-grained categorization. The dataset covers 60 species of birds that all occur in a specific geographic location: Sapsucker Woods, Ithaca, NY. It is comprised of images from existing datasets, and brand new, expert curated audio and video data. 
+* [PACS](https://github.com/samuelyu2002/PACS) - A  dataset designed to help create and evaluate
+a new generation of AI algorithms able to reason about physical commonsense using both audio and visual modalities. 
+* [AVSBench](http://www.avlbench.opennlplab.cn/download) - A dataset for audio-visual pixel-wise segmentation task.
 
 #### Face-Voice Dataset
 * [VoxCeleb](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/) - Audio-Visual Speaker Identification, contains two versions
