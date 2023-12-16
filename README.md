@@ -7,6 +7,7 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
  - [Audio-Visual Representation/Classification/Retrieval](#Audio-Visual-Representation)
  - [Audio-Visual Action Recognition](#Audio-Visual-Action-Recognition)
  - [Audio-Visual Spatial/Depth](#Audio-Visual-Spatialdepth)
+ - [Audio-Visual RIR](#audio-visual-rir)
  - [Audio-Visual Navigation/RL](#Audio-Visual-NavigationRL)
  - [Audio-Visual Faces/Speech](#Audio-Visual-Facesspeech)
  - [Audio-Visual Question Answering](#Audio-Visual-Question-Answering)
@@ -148,6 +149,16 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [2.5D Visual Sound](http://openaccess.thecvf.com/content_CVPR_2019/papers/Gao_2.5D_Visual_Sound_CVPR_2019_paper.pdf) - Gao, R., & Grauman, K. (CVPR 2019) [[project page]](http://vision.cs.utexas.edu/projects/2.5D_visual_sound/) [[dataset]](https://github.com/facebookresearch/FAIR-Play) [[code]](https://github.com/facebookresearch/2.5D-Visual-Sound)
 * [Self-supervised generation of spatial audio for 360 video](https://papers.nips.cc/paper/7319-self-supervised-generation-of-spatial-audio-for-360-video.pdf) - Morgado, P., Nvasconcelos, N., Langlois, T., & Wang, O. (NeurIPS 2018) [[project page]](https://pedro-morgado.github.io/spatialaudiogen/) [[code/dataset]](https://github.com/pedro-morgado/spatialaudiogen)
 * [Self-supervised audio spatialization with correspondence classifier](https://ieeexplore.ieee.org/abstract/document/8803494?casa_token=rUiDsxJS6u0AAAAA:sLIrrVSiI-mgs5dJXroOslT5sh1nWX1dvlK-iYwV4CVVaJyqJCTWQ3Gc9BhLdBNEPVsqPLIW) - Lu, Y. D., Lee, H. Y., Tseng, H. Y., & Yang, M. H. (ICIP 2019) 
+
+#### Audio-Visual RIR
+* [Self-Supervised Visual Acoustic Matching](https://arxiv.org/pdf/2307.15064.pdf) - Somayazulu, A., Chen, C., & Grauman, K. (NeurIPS 2023) [[project page]](https://vision.cs.utexas.edu/projects/ss_vam/)
+* [Novel-View Acoustic Synthesis](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Novel-View_Acoustic_Synthesis_CVPR_2023_paper.pdf) - Chen, C., Richard, A., Shapovalov, R., Ithapu, V. K., Neverova, N., Grauman, K., & Vedaldi, A. (CVPR 2023) [[code]](https://github.com/facebookresearch/novel-view-acoustic-synthesis)
+* [Few-shot audio-visual learning of environment acoustics](https://proceedings.neurips.cc/paper_files/paper/2022/file/113ae3a9762ca2168f860a8501d6ae25-Paper-Conference.pdf) - Majumder, S., Chen, C., Al-Halah, Z., & Grauman, K. (NeurIPS 2022)
+* [Learning Neural Acoustic Fields](https://arxiv.org/pdf/2204.00628.pdf) - Luo, A., Du, Y., Tarr, M., Tenenbaum, J., Torralba, A., & Gan, C. (NeurIPS 2022) [[code]](https://github.com/aluo-x/Learning_Neural_Acoustic_Fields)
+* [Learning Audio-Visual Dereverberation](https://arxiv.org/pdf/2106.07732.pdf) - Chen, C., Sun, W., Harwath, D., & Grauman, K. (ICASSP 2023) [[code]](https://github.com/facebookresearch/learning-audio-visual-dereverberation)
+* [Visual acoustic matching](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Visual_Acoustic_Matching_CVPR_2022_paper.pdf) - Chen, C., Gao, R., Calamia, P., & Grauman, K. (CVPR 2022) [[code]](https://github.com/facebookresearch/visual-acoustic-matching)
+* [Image2reverb: Cross-modal reverb impulse response synthesis](https://openaccess.thecvf.com/content/ICCV2021/papers/Singh_Image2Reverb_Cross-Modal_Reverb_Impulse_Response_Synthesis_ICCV_2021_paper.pdf) - Singh, N., Mentch, J., Ng, J., Beveridge, M., & Drori, I. (ICCV 2021). [[code]](https://github.com/nikhilsinghmus/image2reverb)
+
 
 #### Audio-Visual Highlight Detection
 * [Temporal Cue Guided Video Highlight Detection With Low-Rank Audio-Visual Fusion](https://openaccess.thecvf.com/content/ICCV2021/papers/Ye_Temporal_Cue_Guided_Video_Highlight_Detection_With_Low-Rank_Audio-Visual_Fusion_ICCV_2021_paper.pdf) - Ye, Q., Shen, X., Gao, Y., Wang, Z., Bi, Q., Li, P., & Yang, G. (ICCV 2021)
