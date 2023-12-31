@@ -8,6 +8,8 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
  - [Audio-Visual Action Recognition](#Audio-Visual-Action-Recognition)
  - [Audio-Visual Spatial/Depth](#Audio-Visual-Spatialdepth)
  - [Audio-Visual RIR](#audio-visual-rir)
+ - [Audio-Visual Deepfake/Robustness](#Audio-Visual-DeepfakeRobustness)
+ - [Lightweight Audio-Visual Model] (#Lightweight-Audio-VisualModel)
  - [Audio-Visual Navigation/RL](#Audio-Visual-NavigationRL)
  - [Audio-Visual Faces/Speech](#Audio-Visual-Facesspeech)
  - [Audio-Visual Question Answering](#Audio-Visual-Question-Answering)
