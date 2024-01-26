@@ -8,6 +8,8 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
  - [Audio-Visual Action Recognition](#Audio-Visual-Action-Recognition)
  - [Audio-Visual Spatial/Depth](#Audio-Visual-Spatialdepth)
  - [Audio-Visual RIR](#audio-visual-rir)
+ - [Audio-Visual Deepfake/Robustness](#Audio-Visual-DeepfakeRobustness)
+ - [Lightweight Audio-Visual Model] (#Lightweight-Audio-VisualModel)
  - [Audio-Visual Navigation/RL](#Audio-Visual-NavigationRL)
  - [Audio-Visual Faces/Speech](#Audio-Visual-Facesspeech)
  - [Audio-Visual Question Answering](#Audio-Visual-Question-Answering)
@@ -164,8 +166,13 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Temporal Cue Guided Video Highlight Detection With Low-Rank Audio-Visual Fusion](https://openaccess.thecvf.com/content/ICCV2021/papers/Ye_Temporal_Cue_Guided_Video_Highlight_Detection_With_Low-Rank_Audio-Visual_Fusion_ICCV_2021_paper.pdf) - Ye, Q., Shen, X., Gao, Y., Wang, Z., Bi, Q., Li, P., & Yang, G. (ICCV 2021)
 * [Joint Visual and Audio Learning for Video Highlight Detection](https://openaccess.thecvf.com/content/ICCV2021/papers/Badamdorj_Joint_Visual_and_Audio_Learning_for_Video_Highlight_Detection_ICCV_2021_paper.pdf) - Badamdorj, T., Rochan, M., Wang, Y., & Cheng, L. (ICCV 2021)
 
-#### Audio-Visual Deepfake
+#### Audio-Visual Deepfake/Robustness
+* [Push-Pull: Characterizing the Adversarial Robustness for Audio-Visual Active Speaker Detection](https://arxiv.org/abs/2210.00753) - Chen, X., et al. (SLT 2022) [[Demos]](https://xjchen.tech/Push-Pull/index.html)
 * [Joint Audio-Visual Deepfake Detection](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_Joint_Audio-Visual_Deepfake_Detection_ICCV_2021_paper.pdf) - Zhou, Y., & Lim, S. N. (ICCV 2021)
+* [Can Audio-Visual Integration Strengthen Robustness Under Multimodal Attacks?](https://arxiv.org/pdf/2104.02000.pdf) - Tian, Y., & Xu, C. (CVPR 2021) [[code]](https://github.com/YapengTian/AV-Robustness-CVPR21)
+
+#### Lightweight Audio-Visual Model
+* [Multimodal Transformer Distillation for Audio-Visual Synchronization](https://arxiv.org/abs/2210.15563) - Chen, X., et al. (ICASSP 2024) [[Code]](https://github.com/xjchenGit/MTDVocaLiST)
 
 #### Audio-Visual Navigation/RL
 * [Sound Adversarial Audio-Visual Navigation](https://openreview.net/pdf?id=NkZq4OEYN-) - Yu, Y., Huang, W., Sun, F., Chen, C., Wang, Y., & Liu, X. (ICLR 2022) [[project page]](https://yyf17.github.io/SAAVN/) [[code]](https://github.com/yyf17/SAAVN/tree/main)
@@ -272,8 +279,6 @@ A curated list of papers and datsets for various audio-visual tasks, inspired by
 * [Audio-Visual Floorplan Reconstruction]() - S. Purushwalkam, S. V. A. Gari, V. K. Ithapu, C. Schissler, P. Robinson, A. Gupta, K. Grauman (ICCV 2021) [[code]](https://github.com/senthilps8/avmap) [[project page]](https://www.cs.cmu.edu/~spurushw/publication/avmap/)
 * [GLAVNet: Global-Local Audio-Visual Cues for Fine-Grained Material Recognition]() - (CVPR 2021)
 * [There is More than Meets the Eye: Self-Supervised Multi-Object Detection and Tracking with Sound by Distilling Multimodal Knowledge]() - Valverde, F. R., Hurtado, J. V., & Valada, A. (CVPR 2021) [[code]](https://github.com/robot-learning-freiburg/MM-DistillNet) [[project page/dataset]](http://multimodal-distill.cs.uni-freiburg.de/)
-* [Can Audio-Visual Integration Strengthen Robustness Under Multimodal Attacks?](https://arxiv.org/pdf/2104.02000.pdf) - Tian, Y., & Xu, C. (CVPR 2021) [[code]](https://github.com/YapengTian/AV-Robustness-CVPR21)
-* [Push-Pull: Characterizing the Adversarial Robustness for Audio-Visual Active Speaker Detection?](https://arxiv.org/abs/2210.00753) - Xuanjun Chen,et al. (SLT 2022) [[Demos]](https://xjchen.tech/Push-Pull/index.html)
 * [Sight to sound: An end-to-end approach for visual piano transcription](http://www.robots.ox.ac.uk/~vgg/publications/2020/Koepke20/koepke20.pdf) - Koepke, A. S., Wiles, O., Moses, Y., & Zisserman, A. (ICASSP 2020) [[project page/dataset]](https://www.robots.ox.ac.uk/~vgg/research/sighttosound/)
 * [Solos: A Dataset for Audio-Visual Music Analysis](https://arxiv.org/pdf/2006.07931.pdf) - Montesinos, J. F., Slizovskaia, O., & Haro, G. (arXiv 2020) [[project page]](https://www.juanmontesinos.com/Solos/) [[dataset]](https://github.com/JuanFMontesinos/Solos)
 * [Cross-Task Transfer for Multimodal Aerial Scene Recognition](https://arxiv.org/pdf/2005.08449.pdf) - Hu, D., Li, X., Mou, L., Jin, P., Chen, D., Jing, L., ... & Dou, D. (arXiv 2020) [[code]](https://github.com/DTaoo/Multimodal-Aerial-Scene-Recognition) [[dataset]](https://zenodo.org/record/3828124)
